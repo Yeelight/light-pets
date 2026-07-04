@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-117-screen-panel",
+  "display_name": "曜蓝屏灵117",
+  "reference_device": "S系列AI智慧屏",
+  "archetype": "screen",
+  "source_id": 117,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/db731eb3-6609-4472-94c4-977f861544cb.jpg",
+  "features": [
+    "6.9英寸全面屏",
+    "旗舰AI运算芯片",
+    "场景化深度交互",
+    "双模网关"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-117-screen-panel",
+  "spritesheet_webp": "pet_packages/yeelight-pro-117-screen-panel/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-117-screen-panel/spritesheet.png",
+  "validation": "qa/yeelight-pro-117-screen-panel/validation.json",
+  "contact_sheet": "qa/yeelight-pro-117-screen-panel/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-117-screen-panel/previews",
+  "review": "qa/yeelight-pro-117-screen-panel/review.json"
+}

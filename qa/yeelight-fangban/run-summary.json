@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-fangban",
+  "display_name": "方板晶晶",
+  "reference_device": "智能面板灯 / Panel Light",
+  "package_dir": "pet_packages/yeelight-fangban",
+  "spritesheet_webp": "pet_packages/yeelight-fangban/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-fangban/spritesheet.png",
+  "validation": "qa/yeelight-fangban/validation.json",
+  "contact_sheet": "qa/yeelight-fangban/contact-sheet.png",
+  "preview_dir": "qa/yeelight-fangban/previews",
+  "review": "qa/yeelight-fangban/review.json"
+}

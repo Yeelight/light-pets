@@ -1,0 +1,7 @@
+{
+  "id": "yeelight-lumi",
+  "displayName": "Yeelight Lumi",
+  "description": "A cute Yeelight-inspired smart-light robot companion carrying a warm little bulb friend.",
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "object"
+}

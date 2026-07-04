@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 125,
+    "seriesName": "D系列色温磁吸灯",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/8649ac41-06a3-4818-9ebf-38417cd796ef.jpg",
+    "features": [
+      "单驱动集控",
+      "全光谱高显",
+      "多元模组自由组合",
+      "万分级调光"
+    ]
+  }
+}

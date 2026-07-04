@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-13-spotlight",
+  "display_name": "曜蓝光瞳13",
+  "reference_device": "S21 明装斗胆灯",
+  "archetype": "spotlight",
+  "source_id": 13,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series-images/f6f42c34-e361-464d-b1af-53f33d6f360f.jpg",
+  "features": [
+    "0.01%超深度调光",
+    "支持凌动技术",
+    "RA90显色指数",
+    "0.1W待机功耗"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-13-spotlight",
+  "spritesheet_webp": "pet_packages/yeelight-pro-13-spotlight/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-13-spotlight/spritesheet.png",
+  "validation": "qa/yeelight-pro-13-spotlight/validation.json",
+  "contact_sheet": "qa/yeelight-pro-13-spotlight/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-13-spotlight/previews",
+  "review": "qa/yeelight-pro-13-spotlight/review.json"
+}

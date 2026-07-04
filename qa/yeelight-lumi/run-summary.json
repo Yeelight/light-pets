@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-lumi",
+  "display_name": "Yeelight Lumi",
+  "reference_device": "smart-light robot companion",
+  "package_dir": "packages/yeelight-lumi",
+  "spritesheet_webp": "packages/yeelight-lumi/spritesheet.webp",
+  "spritesheet_png": "packages/yeelight-lumi/spritesheet.png",
+  "validation": "qa/yeelight-lumi/validation.json",
+  "contact_sheet": "qa/yeelight-lumi/contact-sheet.png",
+  "preview_dir": "qa/yeelight-lumi/previews",
+  "review": "qa/yeelight-lumi/review.json"
+}

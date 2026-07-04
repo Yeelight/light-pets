@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-115-spotlight",
+  "display_name": "岚晶光瞳115",
+  "reference_device": "D系列嵌入式射灯PLUS版",
+  "archetype": "spotlight",
+  "source_id": 115,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/489ce194-c796-4bc9-9891-c0b3876c0ada.jpg",
+  "features": [
+    "双色温混光柔和",
+    "12W高功率",
+    "低蓝光芯片",
+    "无可视频闪"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-115-spotlight",
+  "spritesheet_webp": "pet_packages/yeelight-pro-115-spotlight/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-115-spotlight/spritesheet.png",
+  "validation": "qa/yeelight-pro-115-spotlight/validation.json",
+  "contact_sheet": "qa/yeelight-pro-115-spotlight/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-115-spotlight/previews",
+  "review": "qa/yeelight-pro-115-spotlight/review.json"
+}

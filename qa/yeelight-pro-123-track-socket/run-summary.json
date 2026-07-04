@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-123-track-socket",
+  "display_name": "灵光轨座兽123",
+  "reference_device": "E系列智能轨道插座",
+  "archetype": "socket",
+  "source_id": 123,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/ff755ffb-dbc7-4bc0-9618-119a64500a26.jpg",
+  "features": [
+    "3.3英寸触控屏",
+    "雷达人在感应",
+    "集成氛围灯带",
+    "自回弹保护门设计"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-123-track-socket",
+  "spritesheet_webp": "pet_packages/yeelight-pro-123-track-socket/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-123-track-socket/spritesheet.png",
+  "validation": "qa/yeelight-pro-123-track-socket/validation.json",
+  "contact_sheet": "qa/yeelight-pro-123-track-socket/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-123-track-socket/previews",
+  "review": "qa/yeelight-pro-123-track-socket/review.json"
+}

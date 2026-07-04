@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-108-curtain-motor",
+  "display_name": "灵光帘卷兽108",
+  "reference_device": "E系列智能开合帘电机",
+  "archetype": "curtain",
+  "source_id": 108,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/88c78b38-4a64-42a0-b97a-2aa1d7e18c9b.jpg",
+  "features": [
+    "超小体积",
+    "超大扭矩",
+    "三档调速",
+    "自定义开合比例"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-108-curtain-motor",
+  "spritesheet_webp": "pet_packages/yeelight-pro-108-curtain-motor/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-108-curtain-motor/spritesheet.png",
+  "validation": "qa/yeelight-pro-108-curtain-motor/validation.json",
+  "contact_sheet": "qa/yeelight-pro-108-curtain-motor/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-108-curtain-motor/previews",
+  "review": "qa/yeelight-pro-108-curtain-motor/review.json"
+}

@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-100-smart-switch",
+  "display_name": "灵光开关仔100",
+  "reference_device": "E20智能开关-单零火版",
+  "archetype": "switch",
+  "source_id": 100,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/0c3ed5ce-cb3a-4e32-a2b1-29334438fd09.jpg",
+  "features": [
+    "单零火兼容设计",
+    "欧姆龙微动开关",
+    "16A 磁保持继电器",
+    "AI自适应模式"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-100-smart-switch",
+  "spritesheet_webp": "pet_packages/yeelight-pro-100-smart-switch/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-100-smart-switch/spritesheet.png",
+  "validation": "qa/yeelight-pro-100-smart-switch/validation.json",
+  "contact_sheet": "qa/yeelight-pro-100-smart-switch/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-100-smart-switch/previews",
+  "review": "qa/yeelight-pro-100-smart-switch/review.json"
+}

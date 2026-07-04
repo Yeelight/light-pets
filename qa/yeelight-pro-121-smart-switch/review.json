@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 121,
+    "seriesName": "E系列智能开关",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/97c38ea0-a545-40e3-a314-ff3dedc69e94.jpg",
+    "features": [
+      "天际线光幕",
+      "超薄金属设计",
+      "雷达感应",
+      "16A继电器"
+    ]
+  }
+}

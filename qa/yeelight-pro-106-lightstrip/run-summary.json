@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-106-lightstrip",
+  "display_name": "曜蓝流带龙106",
+  "reference_device": "S系列低压双色温COB灯带",
+  "archetype": "strip",
+  "source_id": 106,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/5ac46390-49c2-4c48-9394-b7b3de18a2c7.jpg",
+  "features": [
+    "智能控制",
+    "色温无极调节",
+    "自定义尺寸",
+    "亮度均匀无暗区"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-106-lightstrip",
+  "spritesheet_webp": "pet_packages/yeelight-pro-106-lightstrip/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-106-lightstrip/spritesheet.png",
+  "validation": "qa/yeelight-pro-106-lightstrip/validation.json",
+  "contact_sheet": "qa/yeelight-pro-106-lightstrip/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-106-lightstrip/previews",
+  "review": "qa/yeelight-pro-106-lightstrip/review.json"
+}

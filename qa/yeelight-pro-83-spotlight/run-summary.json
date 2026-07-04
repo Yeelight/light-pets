@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-83-spotlight",
+  "display_name": "灵光光瞳83",
+  "reference_device": "E系列嵌入式射灯-超薄款",
+  "archetype": "spotlight",
+  "source_id": 83,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/d4183328-8b25-4ce3-8a1c-d42bd4ab1ffa.jpg",
+  "features": [
+    "超薄设计",
+    "精准控光",
+    "万分级调光",
+    "超小型电源"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-83-spotlight",
+  "spritesheet_webp": "pet_packages/yeelight-pro-83-spotlight/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-83-spotlight/spritesheet.png",
+  "validation": "qa/yeelight-pro-83-spotlight/validation.json",
+  "contact_sheet": "qa/yeelight-pro-83-spotlight/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-83-spotlight/previews",
+  "review": "qa/yeelight-pro-83-spotlight/review.json"
+}

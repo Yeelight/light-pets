@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 116,
+    "seriesName": "E系列高亮低压双色温灯带",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/64dd0034-4dc8-4b38-bbf5-89cd69b4b091.jpg",
+    "features": [
+      "智能控制",
+      "自定义剪裁尺寸",
+      "色温无极可调节",
+      "双层线路板"
+    ]
+  }
+}

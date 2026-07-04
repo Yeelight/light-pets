@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-guangban",
+  "display_name": "光板卡卡",
+  "reference_device": "智能灯板 / Smart LED Light Panels",
+  "package_dir": "pet_packages/yeelight-guangban",
+  "spritesheet_webp": "pet_packages/yeelight-guangban/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-guangban/spritesheet.png",
+  "validation": "qa/yeelight-guangban/validation.json",
+  "contact_sheet": "qa/yeelight-guangban/contact-sheet.png",
+  "preview_dir": "qa/yeelight-guangban/previews",
+  "review": "qa/yeelight-guangban/review.json"
+}

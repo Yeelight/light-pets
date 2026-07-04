@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-98-driver",
+  "display_name": "曜蓝驱动龟98",
+  "reference_device": "S系列低压驱动",
+  "archetype": "driver",
+  "source_id": 98,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/38f7ccfa-e713-4203-9cab-7328da0ad4fe.jpg",
+  "features": [
+    "电信级稳定",
+    "智能低压驱动"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-98-driver",
+  "spritesheet_webp": "pet_packages/yeelight-pro-98-driver/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-98-driver/spritesheet.png",
+  "validation": "qa/yeelight-pro-98-driver/validation.json",
+  "contact_sheet": "qa/yeelight-pro-98-driver/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-98-driver/previews",
+  "review": "qa/yeelight-pro-98-driver/review.json"
+}

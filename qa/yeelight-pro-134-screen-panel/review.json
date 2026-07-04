@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 134,
+    "seriesName": "YLP D系列全面屏",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/c896aa6a-7039-4f45-aca7-4d7cad7a5203.jpg",
+    "features": [
+      "OpenThread",
+      "4英寸高清",
+      "多重安全保护",
+      "交互体验再升级"
+    ]
+  }
+}

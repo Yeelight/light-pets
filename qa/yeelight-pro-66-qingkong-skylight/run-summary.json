@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-66-qingkong-skylight",
+  "display_name": "星穹青空鲸66",
+  "reference_device": "青空灯",
+  "archetype": "skylight",
+  "source_id": 66,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/c5e7cff5-5ea2-48b3-bc8e-0a5345fc5d1b.jpg",
+  "features": [
+    "掌握蓝天秘密",
+    "模拟自然光",
+    "全屋联动",
+    "19cm便捷安装"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-66-qingkong-skylight",
+  "spritesheet_webp": "pet_packages/yeelight-pro-66-qingkong-skylight/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-66-qingkong-skylight/spritesheet.png",
+  "validation": "qa/yeelight-pro-66-qingkong-skylight/validation.json",
+  "contact_sheet": "qa/yeelight-pro-66-qingkong-skylight/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-66-qingkong-skylight/previews",
+  "review": "qa/yeelight-pro-66-qingkong-skylight/review.json"
+}

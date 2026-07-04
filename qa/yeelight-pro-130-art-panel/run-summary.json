@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-130-art-panel",
+  "display_name": "鎏艺艺面灵130",
+  "reference_device": "Yeelight Pro ART 开关面板 非遗系列",
+  "archetype": "art_panel",
+  "source_id": 130,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/6474a0dd-7137-4e1e-94c3-2e520c9ddc74.jpg",
+  "features": [
+    "锤金工艺",
+    "古法大漆",
+    "顶级镁硅铝合金",
+    "还原天然石材纹理"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-130-art-panel",
+  "spritesheet_webp": "pet_packages/yeelight-pro-130-art-panel/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-130-art-panel/spritesheet.png",
+  "validation": "qa/yeelight-pro-130-art-panel/validation.json",
+  "contact_sheet": "qa/yeelight-pro-130-art-panel/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-130-art-panel/previews",
+  "review": "qa/yeelight-pro-130-art-panel/review.json"
+}

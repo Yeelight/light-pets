@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 63,
+    "seriesName": "H 系列开关插座",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/08cf6ccb-0a2a-4eb8-890c-2d960e4915ce.png",
+    "features": [
+      "开关支持凌动技术",
+      "多款配套插座",
+      "简约外观",
+      "安全耐用"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-19-lightstrip",
+  "display_name": "曜蓝流带龙19",
+  "reference_device": "S20 高压灯带",
+  "archetype": "strip",
+  "source_id": 19,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series-images/2f9f7886-c80f-4d9b-a547-390280e2a915.jpg",
+  "features": [
+    "无极调光调色",
+    "IP65防水",
+    "0.5m可剪裁",
+    "可接长度30M"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-19-lightstrip",
+  "spritesheet_webp": "pet_packages/yeelight-pro-19-lightstrip/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-19-lightstrip/spritesheet.png",
+  "validation": "qa/yeelight-pro-19-lightstrip/validation.json",
+  "contact_sheet": "qa/yeelight-pro-19-lightstrip/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-19-lightstrip/previews",
+  "review": "qa/yeelight-pro-19-lightstrip/review.json"
+}

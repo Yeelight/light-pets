@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 93,
+    "seriesName": "S系列墙面旋钮开关",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/7019a96b-314d-4a72-8a45-99c33a9099ab.jpg",
+    "features": [
+      "2.1寸超清大屏",
+      "两种交互形式",
+      "双传感器",
+      "舒适阻尼手感"
+    ]
+  }
+}

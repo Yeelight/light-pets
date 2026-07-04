@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 124,
+    "seriesName": "S系列智能家居中枢网关",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/20bfc1f7-1220-443a-b43d-7b9a83ee2017.jpg",
+    "features": [
+      "旗舰级芯片GEN2",
+      "多网关无间协同",
+      "云端容灾技术",
+      "毫秒级响应"
+    ]
+  }
+}

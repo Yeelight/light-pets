@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-halo-bot",
+  "display_name": "Yeelight Halo Bot",
+  "reference_device": "floating halo light / cyan smart robot",
+  "package_dir": "packages/yeelight-halo-bot",
+  "spritesheet_webp": "packages/yeelight-halo-bot/spritesheet.webp",
+  "spritesheet_png": "packages/yeelight-halo-bot/spritesheet.png",
+  "validation": "qa/yeelight-halo-bot/validation.json",
+  "contact_sheet": "qa/yeelight-halo-bot/contact-sheet.png",
+  "preview_dir": "qa/yeelight-halo-bot/previews",
+  "review": "qa/yeelight-halo-bot/review.json"
+}

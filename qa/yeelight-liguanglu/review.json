@@ -1,0 +1,16 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic vector sprites inspected via generated contact sheet and state GIFs; no text/logos/UI in sprite cells; unused cells transparent.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": []
+}

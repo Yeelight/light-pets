@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-liguanglu",
+  "display_name": "立光鹿鹿",
+  "reference_device": "智能落地灯 / Floor Lamp",
+  "package_dir": "pet_packages/yeelight-liguanglu",
+  "spritesheet_webp": "pet_packages/yeelight-liguanglu/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-liguanglu/spritesheet.png",
+  "validation": "qa/yeelight-liguanglu/validation.json",
+  "contact_sheet": "qa/yeelight-liguanglu/contact-sheet.png",
+  "preview_dir": "qa/yeelight-liguanglu/previews",
+  "review": "qa/yeelight-liguanglu/review.json"
+}

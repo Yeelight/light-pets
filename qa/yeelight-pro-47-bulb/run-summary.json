@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-47-bulb",
+  "display_name": "灵光光豆豆47",
+  "reference_device": "E20 智能灯泡",
+  "archetype": "bulb",
+  "source_id": 47,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/c9daec91-e87b-464d-bf9b-dab0f730312f.png",
+  "features": [
+    "色温版冷暖调节",
+    "彩光版真全彩",
+    "高光通量",
+    "支持多种流光模式"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-47-bulb",
+  "spritesheet_webp": "pet_packages/yeelight-pro-47-bulb/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-47-bulb/spritesheet.png",
+  "validation": "qa/yeelight-pro-47-bulb/validation.json",
+  "contact_sheet": "qa/yeelight-pro-47-bulb/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-47-bulb/previews",
+  "review": "qa/yeelight-pro-47-bulb/review.json"
+}

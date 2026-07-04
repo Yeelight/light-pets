@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 14,
+    "seriesName": "S20 蓝牙Mesh网关",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series-images/c1571017-1ee4-481f-9f82-099afb83d19f.jpg",
+    "features": [
+      "接入米家智能家庭",
+      "接入Homekit",
+      "路由级Wi-Fi芯片",
+      "安全稳定"
+    ]
+  }
+}

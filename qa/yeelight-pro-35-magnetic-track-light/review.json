@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 35,
+    "seriesName": "P20 明装磁吸轨道灯",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series-images/93c42b81-5f92-4370-a64a-22c04340bf3b.jpg",
+    "features": [
+      "万分级超深度调光",
+      "轨道薄至5mm",
+      "单灯调光调色",
+      "无吊顶免开槽"
+    ]
+  }
+}

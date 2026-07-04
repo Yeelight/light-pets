@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-95-bath-heater",
+  "display_name": "灵光浴暖鲸95",
+  "reference_device": "E系列智能浴霸",
+  "archetype": "bath_heater",
+  "source_id": 95,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/9cd3d6c2-d02e-41c3-a0c3-8eb421683594.jpg",
+  "features": [
+    "全时除菌",
+    "直流变频电机",
+    "1min升温10°C",
+    "广域恒温"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-95-bath-heater",
+  "spritesheet_webp": "pet_packages/yeelight-pro-95-bath-heater/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-95-bath-heater/spritesheet.png",
+  "validation": "qa/yeelight-pro-95-bath-heater/validation.json",
+  "contact_sheet": "qa/yeelight-pro-95-bath-heater/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-95-bath-heater/previews",
+  "review": "qa/yeelight-pro-95-bath-heater/review.json"
+}

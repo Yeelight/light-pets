@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 112,
+    "seriesName": "D系列智能开关-单零火版",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/1f543271-023d-4950-82d5-b8550b296d08.jpg",
+    "features": [
+      "单零火兼容设计",
+      "AI自适应模式",
+      "黄金比例按键",
+      "精调键程 细腻手感"
+    ]
+  }
+}

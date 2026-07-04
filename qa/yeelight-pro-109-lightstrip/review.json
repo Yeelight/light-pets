@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 109,
+    "seriesName": "E系列低压单色温灯带",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/f0a8a759-7883-433c-b042-7335017634be.jpg",
+    "features": [
+      "优质LED灯珠",
+      "Ra97超显色",
+      "低至5cm裁剪",
+      "多种色温可选"
+    ]
+  }
+}

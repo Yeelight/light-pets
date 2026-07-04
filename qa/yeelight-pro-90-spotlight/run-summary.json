@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-90-spotlight",
+  "display_name": "灵光光瞳90",
+  "reference_device": "E+系列嵌入式射灯",
+  "archetype": "spotlight",
+  "source_id": 90,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/0e790dee-66b4-412e-b8c0-aff899fb4a27.jpg",
+  "features": [
+    "超小型精灵电源",
+    "柔净混光技术",
+    "美术馆级高显指",
+    "万分级调光"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-90-spotlight",
+  "spritesheet_webp": "pet_packages/yeelight-pro-90-spotlight/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-90-spotlight/spritesheet.png",
+  "validation": "qa/yeelight-pro-90-spotlight/validation.json",
+  "contact_sheet": "qa/yeelight-pro-90-spotlight/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-90-spotlight/previews",
+  "review": "qa/yeelight-pro-90-spotlight/review.json"
+}

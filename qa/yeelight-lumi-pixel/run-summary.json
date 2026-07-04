@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-lumi-pixel",
+  "display_name": "Yeelight Lumi Pixel",
+  "reference_device": "retro pixel smart-light robot",
+  "package_dir": "packages/yeelight-lumi-pixel",
+  "spritesheet_webp": "packages/yeelight-lumi-pixel/spritesheet.webp",
+  "spritesheet_png": "packages/yeelight-lumi-pixel/spritesheet.png",
+  "validation": "qa/yeelight-lumi-pixel/validation.json",
+  "contact_sheet": "qa/yeelight-lumi-pixel/contact-sheet.png",
+  "preview_dir": "qa/yeelight-lumi-pixel/previews",
+  "review": "qa/yeelight-lumi-pixel/review.json"
+}

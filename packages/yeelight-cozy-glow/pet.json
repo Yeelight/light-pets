@@ -1,0 +1,7 @@
+{
+  "id": "yeelight-cozy-glow",
+  "displayName": "Yeelight Cozy Glow",
+  "description": "A soft plush bunny Yeelight pet that hugs a warm glowing lamp companion.",
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "plush"
+}

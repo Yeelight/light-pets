@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-134-screen-panel",
+  "display_name": "岚晶屏灵134",
+  "reference_device": "YLP D系列全面屏",
+  "archetype": "screen",
+  "source_id": 134,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/c896aa6a-7039-4f45-aca7-4d7cad7a5203.jpg",
+  "features": [
+    "OpenThread",
+    "4英寸高清",
+    "多重安全保护",
+    "交互体验再升级"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-134-screen-panel",
+  "spritesheet_webp": "pet_packages/yeelight-pro-134-screen-panel/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-134-screen-panel/spritesheet.png",
+  "validation": "qa/yeelight-pro-134-screen-panel/validation.json",
+  "contact_sheet": "qa/yeelight-pro-134-screen-panel/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-134-screen-panel/previews",
+  "review": "qa/yeelight-pro-134-screen-panel/review.json"
+}

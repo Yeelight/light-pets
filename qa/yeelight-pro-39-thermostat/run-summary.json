@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-39-thermostat",
+  "display_name": "曜蓝温控狐39",
+  "reference_device": "S系列 VRF中央空调温控器",
+  "archetype": "thermostat",
+  "source_id": 39,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/c403614e-febb-4aa9-995e-342b05ca85e9.jpg",
+  "features": [
+    "搭配全面屏",
+    "新增定时功能",
+    "可控95%中央空调",
+    "精致交互界面"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-39-thermostat",
+  "spritesheet_webp": "pet_packages/yeelight-pro-39-thermostat/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-39-thermostat/spritesheet.png",
+  "validation": "qa/yeelight-pro-39-thermostat/validation.json",
+  "contact_sheet": "qa/yeelight-pro-39-thermostat/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-39-thermostat/previews",
+  "review": "qa/yeelight-pro-39-thermostat/review.json"
+}

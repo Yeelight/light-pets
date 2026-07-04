@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-qingqiong",
+  "display_name": "小青穹",
+  "reference_device": "青空®灯 / P20 智能版青空灯",
+  "package_dir": "pet_packages/yeelight-qingqiong",
+  "spritesheet_webp": "pet_packages/yeelight-qingqiong/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-qingqiong/spritesheet.png",
+  "validation": "qa/yeelight-qingqiong/validation.json",
+  "contact_sheet": "qa/yeelight-qingqiong/contact-sheet.png",
+  "preview_dir": "qa/yeelight-qingqiong/previews",
+  "review": "qa/yeelight-qingqiong/review.json"
+}

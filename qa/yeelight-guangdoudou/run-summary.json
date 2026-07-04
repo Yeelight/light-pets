@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-guangdoudou",
+  "display_name": "暖光豆豆",
+  "reference_device": "智能 LED 灯泡 W3 / Bulb",
+  "package_dir": "pet_packages/yeelight-guangdoudou",
+  "spritesheet_webp": "pet_packages/yeelight-guangdoudou/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-guangdoudou/spritesheet.png",
+  "validation": "qa/yeelight-guangdoudou/validation.json",
+  "contact_sheet": "qa/yeelight-guangdoudou/contact-sheet.png",
+  "preview_dir": "qa/yeelight-guangdoudou/previews",
+  "review": "qa/yeelight-guangdoudou/review.json"
+}

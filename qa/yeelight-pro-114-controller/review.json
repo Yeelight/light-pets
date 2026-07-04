@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 114,
+    "seriesName": "S系列双路控制器",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/24056ca7-e430-4d88-9593-03343981c89a.jpg",
+    "features": [
+      "零改造智能升级",
+      "实时电量追踪",
+      "双路互锁防护",
+      "挂耳式卡扣设计"
+    ]
+  }
+}

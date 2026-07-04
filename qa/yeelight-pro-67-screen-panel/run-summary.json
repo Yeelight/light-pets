@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-67-screen-panel",
+  "display_name": "星穹屏灵67",
+  "reference_device": "P20 全景屏面板",
+  "archetype": "screen",
+  "source_id": 67,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/f68e1806-9a81-4518-b355-c2680b268c77.jpg",
+  "features": [
+    "家居中控 纵览全局",
+    "全景大屏 至美设计",
+    "定制宽屏 便捷操控",
+    "千万曲库 声光联动"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-67-screen-panel",
+  "spritesheet_webp": "pet_packages/yeelight-pro-67-screen-panel/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-67-screen-panel/spritesheet.png",
+  "validation": "qa/yeelight-pro-67-screen-panel/validation.json",
+  "contact_sheet": "qa/yeelight-pro-67-screen-panel/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-67-screen-panel/previews",
+  "review": "qa/yeelight-pro-67-screen-panel/review.json"
+}

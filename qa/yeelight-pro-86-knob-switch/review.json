@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 86,
+    "seriesName": "E系列旋钮开关",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/9487bee6-89ea-4511-8536-36832372f04e.jpg",
+    "features": [
+      "丝滑调光体验",
+      "多场景应用",
+      "灵敏度可调",
+      "腕表级质感"
+    ]
+  }
+}

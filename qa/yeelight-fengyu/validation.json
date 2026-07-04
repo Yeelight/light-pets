@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "atlas_size": [
+    1536,
+    1872
+  ],
+  "cell_size": [
+    192,
+    208
+  ],
+  "rows": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "frame_counts": {
+    "idle": 6,
+    "running-right": 8,
+    "running-left": 8,
+    "waving": 4,
+    "jumping": 5,
+    "failed": 8,
+    "waiting": 6,
+    "running": 6,
+    "review": 6
+  },
+  "errors": [],
+  "warnings": [],
+  "warning_count": 0,
+  "webp_reload_ok": true,
+  "webp_reload_errors": [],
+  "webp_reload_warning_count": 0
+}

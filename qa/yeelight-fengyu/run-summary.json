@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-fengyu",
+  "display_name": "风羽扇扇",
+  "reference_device": "风扇灯 / Fan Light",
+  "package_dir": "pet_packages/yeelight-fengyu",
+  "spritesheet_webp": "pet_packages/yeelight-fengyu/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-fengyu/spritesheet.png",
+  "validation": "qa/yeelight-fengyu/validation.json",
+  "contact_sheet": "qa/yeelight-fengyu/contact-sheet.png",
+  "preview_dir": "qa/yeelight-fengyu/previews",
+  "review": "qa/yeelight-fengyu/review.json"
+}

@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-118-spotlight",
+  "display_name": "灵光光瞳118",
+  "reference_device": "E3系列嵌入式筒射灯",
+  "archetype": "spotlight",
+  "source_id": 118,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/97f730b8-b052-4ad3-a8b2-874a30fb57ca.jpg",
+  "features": [
+    "双塔散热架构",
+    "万灯同步一致",
+    "双光学设计",
+    "NFC可编程电源"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-118-spotlight",
+  "spritesheet_webp": "pet_packages/yeelight-pro-118-spotlight/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-118-spotlight/spritesheet.png",
+  "validation": "qa/yeelight-pro-118-spotlight/validation.json",
+  "contact_sheet": "qa/yeelight-pro-118-spotlight/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-118-spotlight/previews",
+  "review": "qa/yeelight-pro-118-spotlight/review.json"
+}

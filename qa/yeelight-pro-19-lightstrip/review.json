@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 19,
+    "seriesName": "S20 高压灯带",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series-images/2f9f7886-c80f-4d9b-a547-390280e2a915.jpg",
+    "features": [
+      "无极调光调色",
+      "IP65防水",
+      "0.5m可剪裁",
+      "可接长度30M"
+    ]
+  }
+}

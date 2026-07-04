@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-89-spotlight",
+  "display_name": "灵光光瞳89",
+  "reference_device": "E系列明装筒射灯",
+  "archetype": "spotlight",
+  "source_id": 89,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/d02c8ed3-3800-44d4-ad89-f02fedcb0974.jpg",
+  "features": [
+    "射灯万向调节",
+    "博物馆级高显指",
+    "精准控光 混光均匀",
+    "多重深防眩"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-89-spotlight",
+  "spritesheet_webp": "pet_packages/yeelight-pro-89-spotlight/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-89-spotlight/spritesheet.png",
+  "validation": "qa/yeelight-pro-89-spotlight/validation.json",
+  "contact_sheet": "qa/yeelight-pro-89-spotlight/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-89-spotlight/previews",
+  "review": "qa/yeelight-pro-89-spotlight/review.json"
+}

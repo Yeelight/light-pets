@@ -1,0 +1,7 @@
+{
+  "id": "yeelight-lumi-pixel",
+  "displayName": "Yeelight Lumi Pixel",
+  "description": "A crisp retro pixel-art Yeelight smart-light robot pet with a tiny warm bulb buddy.",
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "robot"
+}

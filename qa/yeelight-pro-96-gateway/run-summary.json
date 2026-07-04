@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-96-gateway",
+  "display_name": "曜蓝中枢鲸96",
+  "reference_device": "S20蓝牙网关（增强版）",
+  "archetype": "gateway",
+  "source_id": 96,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/d0739e64-aa95-42bf-9653-91ca2fd1676b.jpg",
+  "features": [
+    "多网关无间协同",
+    "毫秒级响应",
+    "全球主流loT生态",
+    "云端容灾技术"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-96-gateway",
+  "spritesheet_webp": "pet_packages/yeelight-pro-96-gateway/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-96-gateway/spritesheet.png",
+  "validation": "qa/yeelight-pro-96-gateway/validation.json",
+  "contact_sheet": "qa/yeelight-pro-96-gateway/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-96-gateway/previews",
+  "review": "qa/yeelight-pro-96-gateway/review.json"
+}

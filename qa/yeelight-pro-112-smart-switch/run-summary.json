@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-112-smart-switch",
+  "display_name": "岚晶开关仔112",
+  "reference_device": "D系列智能开关-单零火版",
+  "archetype": "switch",
+  "source_id": 112,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/1f543271-023d-4950-82d5-b8550b296d08.jpg",
+  "features": [
+    "单零火兼容设计",
+    "AI自适应模式",
+    "黄金比例按键",
+    "精调键程 细腻手感"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-112-smart-switch",
+  "spritesheet_webp": "pet_packages/yeelight-pro-112-smart-switch/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-112-smart-switch/spritesheet.png",
+  "validation": "qa/yeelight-pro-112-smart-switch/validation.json",
+  "contact_sheet": "qa/yeelight-pro-112-smart-switch/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-112-smart-switch/previews",
+  "review": "qa/yeelight-pro-112-smart-switch/review.json"
+}

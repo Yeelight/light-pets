@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-131-art-panel",
+  "display_name": "鎏艺艺面灵131",
+  "reference_device": "Yeelight Pro ART 开关面板 晶钻系列",
+  "archetype": "art_panel",
+  "source_id": 131,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/5610c406-81c5-4155-a53c-be290c58e9fc.jpg",
+  "features": [
+    "钻石切割工艺",
+    "16道精工淬炼",
+    "百里挑一之作",
+    "万能百搭"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-131-art-panel",
+  "spritesheet_webp": "pet_packages/yeelight-pro-131-art-panel/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-131-art-panel/spritesheet.png",
+  "validation": "qa/yeelight-pro-131-art-panel/validation.json",
+  "contact_sheet": "qa/yeelight-pro-131-art-panel/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-131-art-panel/previews",
+  "review": "qa/yeelight-pro-131-art-panel/review.json"
+}

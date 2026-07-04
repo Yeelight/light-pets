@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-114-controller",
+  "display_name": "曜蓝控控114",
+  "reference_device": "S系列双路控制器",
+  "archetype": "controller",
+  "source_id": 114,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/24056ca7-e430-4d88-9593-03343981c89a.jpg",
+  "features": [
+    "零改造智能升级",
+    "实时电量追踪",
+    "双路互锁防护",
+    "挂耳式卡扣设计"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-114-controller",
+  "spritesheet_webp": "pet_packages/yeelight-pro-114-controller/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-114-controller/spritesheet.png",
+  "validation": "qa/yeelight-pro-114-controller/validation.json",
+  "contact_sheet": "qa/yeelight-pro-114-controller/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-114-controller/previews",
+  "review": "qa/yeelight-pro-114-controller/review.json"
+}

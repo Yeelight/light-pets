@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 79,
+    "seriesName": "E系列嵌入式格栅灯",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/fed165b6-c750-4973-812c-c571f5fed07c.jpg",
+    "features": [
+      "小尺寸，家装更完美",
+      "高功率，房间更明亮",
+      "超防眩，出光更柔和",
+      "深调光，氛围更到位"
+    ]
+  }
+}

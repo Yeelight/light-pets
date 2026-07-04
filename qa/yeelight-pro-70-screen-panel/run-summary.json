@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-70-screen-panel",
+  "display_name": "曜蓝屏灵70",
+  "reference_device": "S21 全面屏开关 (Mesh版)",
+  "archetype": "screen",
+  "source_id": 70,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/47207b2a-86a6-4d5d-9b35-97005d4bec6b.jpg",
+  "features": [
+    "蓝牙Mesh",
+    "低温低功耗",
+    "丰富控制",
+    "多色可选"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-70-screen-panel",
+  "spritesheet_webp": "pet_packages/yeelight-pro-70-screen-panel/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-70-screen-panel/spritesheet.png",
+  "validation": "qa/yeelight-pro-70-screen-panel/validation.json",
+  "contact_sheet": "qa/yeelight-pro-70-screen-panel/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-70-screen-panel/previews",
+  "review": "qa/yeelight-pro-70-screen-panel/review.json"
+}

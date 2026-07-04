@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 81,
+    "seriesName": "S系列梦幻帘窗帘电机",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/f42afb24-9e1a-47a2-a25a-71396404d048.jpg",
+    "features": [
+      "智能控制全屋联动",
+      "帘布旋转 180°",
+      "适配主流帘布",
+      "自定义百分比开合"
+    ]
+  }
+}

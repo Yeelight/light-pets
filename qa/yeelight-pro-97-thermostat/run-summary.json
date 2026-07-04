@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-97-thermostat",
+  "display_name": "曜蓝温控狐97",
+  "reference_device": "S系列风管机温控器",
+  "archetype": "thermostat",
+  "source_id": 97,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/4c21dc35-bff6-4c7c-8b4f-c638f1e6a754.jpg",
+  "features": [
+    "交互便捷",
+    "睡眠定时功能",
+    "适配主流中央空调",
+    "固件升级便捷"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-97-thermostat",
+  "spritesheet_webp": "pet_packages/yeelight-pro-97-thermostat/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-97-thermostat/spritesheet.png",
+  "validation": "qa/yeelight-pro-97-thermostat/validation.json",
+  "contact_sheet": "qa/yeelight-pro-97-thermostat/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-97-thermostat/previews",
+  "review": "qa/yeelight-pro-97-thermostat/review.json"
+}

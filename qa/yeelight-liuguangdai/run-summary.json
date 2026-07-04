@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-liuguangdai",
+  "display_name": "流光带带",
+  "reference_device": "LED 智能灯带 / Lightstrip Pro",
+  "package_dir": "pet_packages/yeelight-liuguangdai",
+  "spritesheet_webp": "pet_packages/yeelight-liuguangdai/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-liuguangdai/spritesheet.png",
+  "validation": "qa/yeelight-liuguangdai/validation.json",
+  "contact_sheet": "qa/yeelight-liuguangdai/contact-sheet.png",
+  "preview_dir": "qa/yeelight-liuguangdai/previews",
+  "review": "qa/yeelight-liuguangdai/review.json"
+}

@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-104-curtain-motor",
+  "display_name": "灵光帘卷兽104",
+  "reference_device": "E系列智能卷帘电机",
+  "archetype": "curtain",
+  "source_id": 104,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/1d7f0a5c-a265-494b-a994-dc263f16f2bb.jpg",
+  "features": [
+    "一键升降",
+    "适配超多帘种",
+    "超静音 低至28分贝",
+    "多维控制场景联动"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-104-curtain-motor",
+  "spritesheet_webp": "pet_packages/yeelight-pro-104-curtain-motor/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-104-curtain-motor/spritesheet.png",
+  "validation": "qa/yeelight-pro-104-curtain-motor/validation.json",
+  "contact_sheet": "qa/yeelight-pro-104-curtain-motor/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-104-curtain-motor/previews",
+  "review": "qa/yeelight-pro-104-curtain-motor/review.json"
+}

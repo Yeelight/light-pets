@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 47,
+    "seriesName": "E20 智能灯泡",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/c9daec91-e87b-464d-bf9b-dab0f730312f.png",
+    "features": [
+      "色温版冷暖调节",
+      "彩光版真全彩",
+      "高光通量",
+      "支持多种流光模式"
+    ]
+  }
+}

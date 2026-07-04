@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 49,
+    "seriesName": "E系列嵌入式磁吸轨道灯",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/89cb0397-3713-4690-9686-2a8366dd0448.jpg",
+    "features": [
+      "超窄20轨道",
+      "千分级深度调光",
+      "超高性价比",
+      "蓝牙mesh单灯单控"
+    ]
+  }
+}

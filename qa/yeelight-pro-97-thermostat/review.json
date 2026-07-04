@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 97,
+    "seriesName": "S系列风管机温控器",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/4c21dc35-bff6-4c7c-8b4f-c638f1e6a754.jpg",
+    "features": [
+      "交互便捷",
+      "睡眠定时功能",
+      "适配主流中央空调",
+      "固件升级便捷"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 122,
+    "seriesName": "E2嵌入式筒射灯",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/2a5e363d-cb72-4c76-858a-94191db327d2.jpg",
+    "features": [
+      "普瑞芯片正装工艺",
+      "窄边框与 弧面双版本",
+      "双色温混光柔和",
+      "万分级调光"
+    ]
+  }
+}

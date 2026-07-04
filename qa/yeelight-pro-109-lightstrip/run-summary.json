@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-109-lightstrip",
+  "display_name": "灵光流带龙109",
+  "reference_device": "E系列低压单色温灯带",
+  "archetype": "strip",
+  "source_id": 109,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/f0a8a759-7883-433c-b042-7335017634be.jpg",
+  "features": [
+    "优质LED灯珠",
+    "Ra97超显色",
+    "低至5cm裁剪",
+    "多种色温可选"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-109-lightstrip",
+  "spritesheet_webp": "pet_packages/yeelight-pro-109-lightstrip/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-109-lightstrip/spritesheet.png",
+  "validation": "qa/yeelight-pro-109-lightstrip/validation.json",
+  "contact_sheet": "qa/yeelight-pro-109-lightstrip/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-109-lightstrip/previews",
+  "review": "qa/yeelight-pro-109-lightstrip/review.json"
+}

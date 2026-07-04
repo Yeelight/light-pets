@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 119,
+    "seriesName": "S2系列嵌入式筒射灯",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/c91ff4e0-a855-480e-a928-e583da4002dc.jpg",
+    "features": [
+      "13mm超微孔出光",
+      "自研柔净混光技术",
+      "精密工艺锻造",
+      "玲珑交叉出光透镜"
+    ]
+  }
+}

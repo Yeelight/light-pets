@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 66,
+    "seriesName": "青空灯",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/c5e7cff5-5ea2-48b3-bc8e-0a5345fc5d1b.jpg",
+    "features": [
+      "掌握蓝天秘密",
+      "模拟自然光",
+      "全屋联动",
+      "19cm便捷安装"
+    ]
+  }
+}

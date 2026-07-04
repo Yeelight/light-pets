@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 21,
+    "seriesName": "M20 旋钮开关",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series-images/ca512315-115c-4840-a924-6c81260abb2f.jpg",
+    "features": [
+      "蓝牙控制",
+      "无线连接",
+      "精准控制",
+      "简约高级"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-yunding",
+  "display_name": "云顶团团",
+  "reference_device": "全光谱智能吸顶灯 / Ceiling Light",
+  "package_dir": "pet_packages/yeelight-yunding",
+  "spritesheet_webp": "pet_packages/yeelight-yunding/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-yunding/spritesheet.png",
+  "validation": "qa/yeelight-yunding/validation.json",
+  "contact_sheet": "qa/yeelight-yunding/contact-sheet.png",
+  "preview_dir": "qa/yeelight-yunding/previews",
+  "review": "qa/yeelight-yunding/review.json"
+}

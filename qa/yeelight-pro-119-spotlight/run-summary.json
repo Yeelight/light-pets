@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-119-spotlight",
+  "display_name": "曜蓝光瞳119",
+  "reference_device": "S2系列嵌入式筒射灯",
+  "archetype": "spotlight",
+  "source_id": 119,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/c91ff4e0-a855-480e-a928-e583da4002dc.jpg",
+  "features": [
+    "13mm超微孔出光",
+    "自研柔净混光技术",
+    "精密工艺锻造",
+    "玲珑交叉出光透镜"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-119-spotlight",
+  "spritesheet_webp": "pet_packages/yeelight-pro-119-spotlight/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-119-spotlight/spritesheet.png",
+  "validation": "qa/yeelight-pro-119-spotlight/validation.json",
+  "contact_sheet": "qa/yeelight-pro-119-spotlight/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-119-spotlight/previews",
+  "review": "qa/yeelight-pro-119-spotlight/review.json"
+}

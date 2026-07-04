@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-zhuoguang",
+  "display_name": "桌光璐璐",
+  "reference_device": "智能台灯 / Desk Lamp D2",
+  "package_dir": "pet_packages/yeelight-zhuoguang",
+  "spritesheet_webp": "pet_packages/yeelight-zhuoguang/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-zhuoguang/spritesheet.png",
+  "validation": "qa/yeelight-zhuoguang/validation.json",
+  "contact_sheet": "qa/yeelight-zhuoguang/contact-sheet.png",
+  "preview_dir": "qa/yeelight-zhuoguang/previews",
+  "review": "qa/yeelight-zhuoguang/review.json"
+}

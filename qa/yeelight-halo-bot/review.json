@@ -1,0 +1,16 @@
+{
+  "visual_qa": "pass",
+  "notes": "Generated contact sheet and state GIFs were rebuilt from the package spritesheet; atlas size and all 72 cells were checked.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": []
+}

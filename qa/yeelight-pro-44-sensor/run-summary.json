@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-44-sensor",
+  "display_name": "曜蓝感知猫44",
+  "reference_device": "S21 人体红外传感器",
+  "archetype": "sensor",
+  "source_id": 44,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series-images/f9ba9042-2d9c-4bc5-b148-fe02cb9824c9.jpg",
+  "features": [
+    "广角移动监测",
+    "光线传感器",
+    "易于安装",
+    "续航长达3年"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-44-sensor",
+  "spritesheet_webp": "pet_packages/yeelight-pro-44-sensor/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-44-sensor/spritesheet.png",
+  "validation": "qa/yeelight-pro-44-sensor/validation.json",
+  "contact_sheet": "qa/yeelight-pro-44-sensor/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-44-sensor/previews",
+  "review": "qa/yeelight-pro-44-sensor/review.json"
+}

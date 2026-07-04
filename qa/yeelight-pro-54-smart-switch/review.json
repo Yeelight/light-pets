@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 54,
+    "seriesName": "E20 智能开关",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/88cb9442-37a1-4a81-8b48-f1d66d01fe3c.png",
+    "features": [
+      "极致简约设计",
+      "鼠标级清脆按压手感",
+      "继电器/情景模式切换",
+      "家族化墙面交互矩阵"
+    ]
+  }
+}

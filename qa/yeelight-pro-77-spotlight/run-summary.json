@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-77-spotlight",
+  "display_name": "灵光光瞳77",
+  "reference_device": "E系列嵌入式射灯",
+  "archetype": "spotlight",
+  "source_id": 77,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/87b5a56f-601f-4f78-a038-67d4c68f3f5b.png",
+  "features": [
+    "混光均匀",
+    "调光精准",
+    "外观精致",
+    "性能强大"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-77-spotlight",
+  "spritesheet_webp": "pet_packages/yeelight-pro-77-spotlight/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-77-spotlight/spritesheet.png",
+  "validation": "qa/yeelight-pro-77-spotlight/validation.json",
+  "contact_sheet": "qa/yeelight-pro-77-spotlight/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-77-spotlight/previews",
+  "review": "qa/yeelight-pro-77-spotlight/review.json"
+}

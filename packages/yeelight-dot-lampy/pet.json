@@ -1,0 +1,7 @@
+{
+  "id": "yeelight-dot-lampy",
+  "displayName": "Yeelight Dot Lampy",
+  "description": "A minimalist round Yeelight lamp helper with a cheerful glowing face and tiny light sidekick.",
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "lamp"
+}

@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-132-art-panel",
+  "display_name": "鎏艺艺面灵132",
+  "reference_device": "Yeelight Pro ART 开关面板 涟漪系列",
+  "archetype": "art_panel",
+  "source_id": 132,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/219466b7-56eb-4ec5-b089-23d68c94fbf2.jpg",
+  "features": [
+    "微米级贝母纹理",
+    "丝滑类肤触感",
+    "背蚀鎏光纹理",
+    "PVD流光折射"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-132-art-panel",
+  "spritesheet_webp": "pet_packages/yeelight-pro-132-art-panel/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-132-art-panel/spritesheet.png",
+  "validation": "qa/yeelight-pro-132-art-panel/validation.json",
+  "contact_sheet": "qa/yeelight-pro-132-art-panel/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-132-art-panel/previews",
+  "review": "qa/yeelight-pro-132-art-panel/review.json"
+}

@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 80,
+    "seriesName": "D系列嵌入式筒射灯",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/42a33dd3-95a8-42a1-877a-3a89891b3001.jpg",
+    "features": [
+      "高显指好光",
+      "多重深防眩",
+      "家族化ID",
+      "极致性价比"
+    ]
+  }
+}

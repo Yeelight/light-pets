@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 123,
+    "seriesName": "E系列智能轨道插座",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/ff755ffb-dbc7-4bc0-9618-119a64500a26.jpg",
+    "features": [
+      "3.3英寸触控屏",
+      "雷达人在感应",
+      "集成氛围灯带",
+      "自回弹保护门设计"
+    ]
+  }
+}

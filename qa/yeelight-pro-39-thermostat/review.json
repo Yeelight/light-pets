@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 39,
+    "seriesName": "S系列 VRF中央空调温控器",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/c403614e-febb-4aa9-995e-342b05ca85e9.jpg",
+    "features": [
+      "搭配全面屏",
+      "新增定时功能",
+      "可控95%中央空调",
+      "精致交互界面"
+    ]
+  }
+}

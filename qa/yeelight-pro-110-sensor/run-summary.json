@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-110-sensor",
+  "display_name": "曜蓝感知猫110",
+  "reference_device": "S系列人在传感器",
+  "archetype": "sensor",
+  "source_id": 110,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/ed1600cf-ffa4-43b3-905e-67dacfd6098d.jpg",
+  "features": [
+    "AI主动学习",
+    "多档灵敏度调节",
+    "AI自适应调光",
+    "吸顶式隐藏安装"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-110-sensor",
+  "spritesheet_webp": "pet_packages/yeelight-pro-110-sensor/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-110-sensor/spritesheet.png",
+  "validation": "qa/yeelight-pro-110-sensor/validation.json",
+  "contact_sheet": "qa/yeelight-pro-110-sensor/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-110-sensor/previews",
+  "review": "qa/yeelight-pro-110-sensor/review.json"
+}

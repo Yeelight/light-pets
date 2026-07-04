@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-94-door-window-sensor",
+  "display_name": "曜蓝门窗豆94",
+  "reference_device": "S20 门窗传感器",
+  "archetype": "door_sensor",
+  "source_id": 94,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/9120827e-1b64-4ec5-8dd9-bfa9aa1e9927.png",
+  "features": [
+    "实时感知门窗状态",
+    "强拆警报装置",
+    "智能联动设备",
+    "贴装式安装"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-94-door-window-sensor",
+  "spritesheet_webp": "pet_packages/yeelight-pro-94-door-window-sensor/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-94-door-window-sensor/spritesheet.png",
+  "validation": "qa/yeelight-pro-94-door-window-sensor/validation.json",
+  "contact_sheet": "qa/yeelight-pro-94-door-window-sensor/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-94-door-window-sensor/previews",
+  "review": "qa/yeelight-pro-94-door-window-sensor/review.json"
+}

@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-24-bulb",
+  "display_name": "米萤光豆豆24",
+  "reference_device": "M20 T43色温灯泡",
+  "archetype": "bulb",
+  "source_id": 24,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series-images/e1827d21-ef5c-404f-b71c-e31d7081ceb0.jpg",
+  "features": [
+    "无极调光调色",
+    "Φ43mm小巧造型",
+    "E27/E14双螺纹",
+    "支持凌动技术"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-24-bulb",
+  "spritesheet_webp": "pet_packages/yeelight-pro-24-bulb/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-24-bulb/spritesheet.png",
+  "validation": "qa/yeelight-pro-24-bulb/validation.json",
+  "contact_sheet": "qa/yeelight-pro-24-bulb/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-24-bulb/previews",
+  "review": "qa/yeelight-pro-24-bulb/review.json"
+}

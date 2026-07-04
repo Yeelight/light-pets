@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 71,
+    "seriesName": "S21 窗帘电机",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/20924621-d20d-472e-b899-ea14503785f1.jpg",
+    "features": [
+      "80KG帘布载重",
+      "28dB超静音",
+      "24CM小巧精致",
+      "缓起缓停"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-79-grille-light",
+  "display_name": "灵光栅瞳79",
+  "reference_device": "E系列嵌入式格栅灯",
+  "archetype": "grille",
+  "source_id": 79,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/fed165b6-c750-4973-812c-c571f5fed07c.jpg",
+  "features": [
+    "小尺寸，家装更完美",
+    "高功率，房间更明亮",
+    "超防眩，出光更柔和",
+    "深调光，氛围更到位"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-79-grille-light",
+  "spritesheet_webp": "pet_packages/yeelight-pro-79-grille-light/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-79-grille-light/spritesheet.png",
+  "validation": "qa/yeelight-pro-79-grille-light/validation.json",
+  "contact_sheet": "qa/yeelight-pro-79-grille-light/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-79-grille-light/previews",
+  "review": "qa/yeelight-pro-79-grille-light/review.json"
+}

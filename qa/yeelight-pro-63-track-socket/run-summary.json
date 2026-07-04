@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-63-track-socket",
+  "display_name": "灵光轨座兽63",
+  "reference_device": "H 系列开关插座",
+  "archetype": "socket",
+  "source_id": 63,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/08cf6ccb-0a2a-4eb8-890c-2d960e4915ce.png",
+  "features": [
+    "开关支持凌动技术",
+    "多款配套插座",
+    "简约外观",
+    "安全耐用"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-63-track-socket",
+  "spritesheet_webp": "pet_packages/yeelight-pro-63-track-socket/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-63-track-socket/spritesheet.png",
+  "validation": "qa/yeelight-pro-63-track-socket/validation.json",
+  "contact_sheet": "qa/yeelight-pro-63-track-socket/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-63-track-socket/previews",
+  "review": "qa/yeelight-pro-63-track-socket/review.json"
+}

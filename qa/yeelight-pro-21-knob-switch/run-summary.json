@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-21-knob-switch",
+  "display_name": "米萤旋旋21",
+  "reference_device": "M20 旋钮开关",
+  "archetype": "knob",
+  "source_id": 21,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series-images/ca512315-115c-4840-a924-6c81260abb2f.jpg",
+  "features": [
+    "蓝牙控制",
+    "无线连接",
+    "精准控制",
+    "简约高级"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-21-knob-switch",
+  "spritesheet_webp": "pet_packages/yeelight-pro-21-knob-switch/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-21-knob-switch/spritesheet.png",
+  "validation": "qa/yeelight-pro-21-knob-switch/validation.json",
+  "contact_sheet": "qa/yeelight-pro-21-knob-switch/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-21-knob-switch/previews",
+  "review": "qa/yeelight-pro-21-knob-switch/review.json"
+}

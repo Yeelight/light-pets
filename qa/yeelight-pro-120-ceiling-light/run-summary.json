@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-120-ceiling-light",
+  "display_name": "曜蓝星顶团120",
+  "reference_device": "S系列护眼吸顶灯",
+  "archetype": "ceiling",
+  "source_id": 120,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/b9d53c1b-5713-4afc-83f1-528f89700ad3.jpg",
+  "features": [
+    "Ra98全光谱护眼",
+    "快装设计",
+    "支持凌动",
+    "星空灯罩"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-120-ceiling-light",
+  "spritesheet_webp": "pet_packages/yeelight-pro-120-ceiling-light/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-120-ceiling-light/spritesheet.png",
+  "validation": "qa/yeelight-pro-120-ceiling-light/validation.json",
+  "contact_sheet": "qa/yeelight-pro-120-ceiling-light/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-120-ceiling-light/previews",
+  "review": "qa/yeelight-pro-120-ceiling-light/review.json"
+}

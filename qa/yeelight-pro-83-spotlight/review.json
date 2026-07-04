@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 83,
+    "seriesName": "E系列嵌入式射灯-超薄款",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/d4183328-8b25-4ce3-8a1c-d42bd4ab1ffa.jpg",
+    "features": [
+      "超薄设计",
+      "精准控光",
+      "万分级调光",
+      "超小型电源"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-38-sensor",
+  "display_name": "星穹感知猫38",
+  "reference_device": "P20 人在传感器",
+  "archetype": "sensor",
+  "source_id": 38,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series-images/89d0faca-3f42-4ea5-b140-2762e89db465.jpg",
+  "features": [
+    "高精度毫米波脉冲雷达",
+    "微动检测",
+    "便于安装",
+    "超强续航"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-38-sensor",
+  "spritesheet_webp": "pet_packages/yeelight-pro-38-sensor/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-38-sensor/spritesheet.png",
+  "validation": "qa/yeelight-pro-38-sensor/validation.json",
+  "contact_sheet": "qa/yeelight-pro-38-sensor/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-38-sensor/previews",
+  "review": "qa/yeelight-pro-38-sensor/review.json"
+}

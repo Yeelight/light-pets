@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-122-spotlight",
+  "display_name": "灵光光瞳122",
+  "reference_device": "E2嵌入式筒射灯",
+  "archetype": "spotlight",
+  "source_id": 122,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/2a5e363d-cb72-4c76-858a-94191db327d2.jpg",
+  "features": [
+    "普瑞芯片正装工艺",
+    "窄边框与 弧面双版本",
+    "双色温混光柔和",
+    "万分级调光"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-122-spotlight",
+  "spritesheet_webp": "pet_packages/yeelight-pro-122-spotlight/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-122-spotlight/spritesheet.png",
+  "validation": "qa/yeelight-pro-122-spotlight/validation.json",
+  "contact_sheet": "qa/yeelight-pro-122-spotlight/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-122-spotlight/previews",
+  "review": "qa/yeelight-pro-122-spotlight/review.json"
+}

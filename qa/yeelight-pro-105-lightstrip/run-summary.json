@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-105-lightstrip",
+  "display_name": "曜蓝流带龙105",
+  "reference_device": "S系列低压RGBCW灯带",
+  "archetype": "strip",
+  "source_id": 105,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/38c30c8e-4523-47d3-8a30-0ac7485930d8.jpg",
+  "features": [
+    "色彩自由变换",
+    "色温无级可调",
+    "超高密度色彩更均匀",
+    "自定义个性化尺寸"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-105-lightstrip",
+  "spritesheet_webp": "pet_packages/yeelight-pro-105-lightstrip/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-105-lightstrip/spritesheet.png",
+  "validation": "qa/yeelight-pro-105-lightstrip/validation.json",
+  "contact_sheet": "qa/yeelight-pro-105-lightstrip/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-105-lightstrip/previews",
+  "review": "qa/yeelight-pro-105-lightstrip/review.json"
+}

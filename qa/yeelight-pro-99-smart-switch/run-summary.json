@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-99-smart-switch",
+  "display_name": "岚晶开关仔99",
+  "reference_device": "D系列智能开关",
+  "archetype": "switch",
+  "source_id": 99,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/60935705-9dcb-448d-a110-dae287942381.jpg",
+  "features": [
+    "AG肤感玻璃",
+    "过零检测技术",
+    "创新悬浮设计",
+    "V0级阻燃材料"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-99-smart-switch",
+  "spritesheet_webp": "pet_packages/yeelight-pro-99-smart-switch/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-99-smart-switch/spritesheet.png",
+  "validation": "qa/yeelight-pro-99-smart-switch/validation.json",
+  "contact_sheet": "qa/yeelight-pro-99-smart-switch/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-99-smart-switch/previews",
+  "review": "qa/yeelight-pro-99-smart-switch/review.json"
+}

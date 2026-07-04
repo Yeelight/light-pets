@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-88-lightstrip",
+  "display_name": "灵光流带龙88",
+  "reference_device": "E系列低压双色温灯带",
+  "archetype": "strip",
+  "source_id": 88,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/1c21730e-b629-4b34-9e7c-ecf6afc7b49e.png",
+  "features": [
+    "色温亮度无级调节",
+    "万分级超深度调光"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-88-lightstrip",
+  "spritesheet_webp": "pet_packages/yeelight-pro-88-lightstrip/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-88-lightstrip/spritesheet.png",
+  "validation": "qa/yeelight-pro-88-lightstrip/validation.json",
+  "contact_sheet": "qa/yeelight-pro-88-lightstrip/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-88-lightstrip/previews",
+  "review": "qa/yeelight-pro-88-lightstrip/review.json"
+}

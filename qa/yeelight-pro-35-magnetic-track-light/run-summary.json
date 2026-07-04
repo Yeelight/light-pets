@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-35-magnetic-track-light",
+  "display_name": "星穹磁轨龙35",
+  "reference_device": "P20 明装磁吸轨道灯",
+  "archetype": "track",
+  "source_id": 35,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series-images/93c42b81-5f92-4370-a64a-22c04340bf3b.jpg",
+  "features": [
+    "万分级超深度调光",
+    "轨道薄至5mm",
+    "单灯调光调色",
+    "无吊顶免开槽"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-35-magnetic-track-light",
+  "spritesheet_webp": "pet_packages/yeelight-pro-35-magnetic-track-light/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-35-magnetic-track-light/spritesheet.png",
+  "validation": "qa/yeelight-pro-35-magnetic-track-light/validation.json",
+  "contact_sheet": "qa/yeelight-pro-35-magnetic-track-light/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-35-magnetic-track-light/previews",
+  "review": "qa/yeelight-pro-35-magnetic-track-light/review.json"
+}

@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-49-magnetic-track-light",
+  "display_name": "灵光磁轨龙49",
+  "reference_device": "E系列嵌入式磁吸轨道灯",
+  "archetype": "track",
+  "source_id": 49,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/89cb0397-3713-4690-9686-2a8366dd0448.jpg",
+  "features": [
+    "超窄20轨道",
+    "千分级深度调光",
+    "超高性价比",
+    "蓝牙mesh单灯单控"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-49-magnetic-track-light",
+  "spritesheet_webp": "pet_packages/yeelight-pro-49-magnetic-track-light/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-49-magnetic-track-light/spritesheet.png",
+  "validation": "qa/yeelight-pro-49-magnetic-track-light/validation.json",
+  "contact_sheet": "qa/yeelight-pro-49-magnetic-track-light/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-49-magnetic-track-light/previews",
+  "review": "qa/yeelight-pro-49-magnetic-track-light/review.json"
+}

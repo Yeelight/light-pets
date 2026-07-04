@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-133-spotlight",
+  "display_name": "曜蓝光瞳133",
+  "reference_device": "S系列嵌入式筒射灯",
+  "archetype": "spotlight",
+  "source_id": 133,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/409e31b7-c00c-4760-becd-1ff506be3ff5.jpg",
+  "features": [
+    "首创双色温透镜",
+    "模块化组合",
+    "领先小角度",
+    "用光致敬空间美学"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-133-spotlight",
+  "spritesheet_webp": "pet_packages/yeelight-pro-133-spotlight/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-133-spotlight/spritesheet.png",
+  "validation": "qa/yeelight-pro-133-spotlight/validation.json",
+  "contact_sheet": "qa/yeelight-pro-133-spotlight/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-133-spotlight/previews",
+  "review": "qa/yeelight-pro-133-spotlight/review.json"
+}

@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-116-lightstrip",
+  "display_name": "灵光流带龙116",
+  "reference_device": "E系列高亮低压双色温灯带",
+  "archetype": "strip",
+  "source_id": 116,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/64dd0034-4dc8-4b38-bbf5-89cd69b4b091.jpg",
+  "features": [
+    "智能控制",
+    "自定义剪裁尺寸",
+    "色温无极可调节",
+    "双层线路板"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-116-lightstrip",
+  "spritesheet_webp": "pet_packages/yeelight-pro-116-lightstrip/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-116-lightstrip/spritesheet.png",
+  "validation": "qa/yeelight-pro-116-lightstrip/validation.json",
+  "contact_sheet": "qa/yeelight-pro-116-lightstrip/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-116-lightstrip/previews",
+  "review": "qa/yeelight-pro-116-lightstrip/review.json"
+}

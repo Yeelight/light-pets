@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 24,
+    "seriesName": "M20 T43色温灯泡",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series-images/e1827d21-ef5c-404f-b71c-e31d7081ceb0.jpg",
+    "features": [
+      "无极调光调色",
+      "Φ43mm小巧造型",
+      "E27/E14双螺纹",
+      "支持凌动技术"
+    ]
+  }
+}

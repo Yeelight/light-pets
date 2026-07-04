@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-65-scene-panel",
+  "display_name": "灵光场景团65",
+  "reference_device": "E20 六键情景面板",
+  "archetype": "scene_panel",
+  "source_id": 65,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/6f06dbc3-71ab-4bb3-94da-61957ee6ebaa.jpeg",
+  "features": [
+    "家族化设计",
+    "鼠标级手感",
+    "断网容灾技术",
+    "零火贴装可选"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-65-scene-panel",
+  "spritesheet_webp": "pet_packages/yeelight-pro-65-scene-panel/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-65-scene-panel/spritesheet.png",
+  "validation": "qa/yeelight-pro-65-scene-panel/validation.json",
+  "contact_sheet": "qa/yeelight-pro-65-scene-panel/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-65-scene-panel/previews",
+  "review": "qa/yeelight-pro-65-scene-panel/review.json"
+}

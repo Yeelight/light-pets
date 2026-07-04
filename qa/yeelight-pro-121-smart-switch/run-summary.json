@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-121-smart-switch",
+  "display_name": "灵光开关仔121",
+  "reference_device": "E系列智能开关",
+  "archetype": "switch",
+  "source_id": 121,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/97c38ea0-a545-40e3-a314-ff3dedc69e94.jpg",
+  "features": [
+    "天际线光幕",
+    "超薄金属设计",
+    "雷达感应",
+    "16A继电器"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-121-smart-switch",
+  "spritesheet_webp": "pet_packages/yeelight-pro-121-smart-switch/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-121-smart-switch/spritesheet.png",
+  "validation": "qa/yeelight-pro-121-smart-switch/validation.json",
+  "contact_sheet": "qa/yeelight-pro-121-smart-switch/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-121-smart-switch/previews",
+  "review": "qa/yeelight-pro-121-smart-switch/review.json"
+}

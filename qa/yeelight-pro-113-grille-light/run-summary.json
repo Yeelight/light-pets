@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-113-grille-light",
+  "display_name": "曜蓝栅瞳113",
+  "reference_device": "S系列嵌入式格栅灯",
+  "archetype": "grille",
+  "source_id": 113,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/8497840e-dcd6-4f7e-a1a0-1950ada0702f.jpg",
+  "features": [
+    "万分级调光",
+    "双色温混光柔和",
+    "大功率高亮度",
+    "大尺寸适配大宅"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-113-grille-light",
+  "spritesheet_webp": "pet_packages/yeelight-pro-113-grille-light/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-113-grille-light/spritesheet.png",
+  "validation": "qa/yeelight-pro-113-grille-light/validation.json",
+  "contact_sheet": "qa/yeelight-pro-113-grille-light/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-113-grille-light/previews",
+  "review": "qa/yeelight-pro-113-grille-light/review.json"
+}

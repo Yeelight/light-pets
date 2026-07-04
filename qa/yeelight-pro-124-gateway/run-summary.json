@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-124-gateway",
+  "display_name": "曜蓝中枢鲸124",
+  "reference_device": "S系列智能家居中枢网关",
+  "archetype": "gateway",
+  "source_id": 124,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/20bfc1f7-1220-443a-b43d-7b9a83ee2017.jpg",
+  "features": [
+    "旗舰级芯片GEN2",
+    "多网关无间协同",
+    "云端容灾技术",
+    "毫秒级响应"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-124-gateway",
+  "spritesheet_webp": "pet_packages/yeelight-pro-124-gateway/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-124-gateway/spritesheet.png",
+  "validation": "qa/yeelight-pro-124-gateway/validation.json",
+  "contact_sheet": "qa/yeelight-pro-124-gateway/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-124-gateway/previews",
+  "review": "qa/yeelight-pro-124-gateway/review.json"
+}

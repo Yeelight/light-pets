@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 67,
+    "seriesName": "P20 全景屏面板",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/f68e1806-9a81-4518-b355-c2680b268c77.jpg",
+    "features": [
+      "家居中控 纵览全局",
+      "全景大屏 至美设计",
+      "定制宽屏 便捷操控",
+      "千万曲库 声光联动"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-nuanzhen",
+  "display_name": "安眠暖枕",
+  "reference_device": "智能床头灯 / Staria Bedside Lamp",
+  "package_dir": "pet_packages/yeelight-nuanzhen",
+  "spritesheet_webp": "pet_packages/yeelight-nuanzhen/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-nuanzhen/spritesheet.png",
+  "validation": "qa/yeelight-nuanzhen/validation.json",
+  "contact_sheet": "qa/yeelight-nuanzhen/contact-sheet.png",
+  "preview_dir": "qa/yeelight-nuanzhen/previews",
+  "review": "qa/yeelight-nuanzhen/review.json"
+}

@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 103,
+    "seriesName": "S系列智能低压灯带DC控制器",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/7b05c79f-1c4a-4b36-ba06-cb6133cce7f9.jpg",
+    "features": [
+      "万分级调光",
+      "外观精致小巧",
+      "输入正负极 接反保护",
+      "兼容12V/24V"
+    ]
+  }
+}

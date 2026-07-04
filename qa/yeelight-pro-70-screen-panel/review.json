@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 70,
+    "seriesName": "S21 全面屏开关 (Mesh版)",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/47207b2a-86a6-4d5d-9b35-97005d4bec6b.jpg",
+    "features": [
+      "蓝牙Mesh",
+      "低温低功耗",
+      "丰富控制",
+      "多色可选"
+    ]
+  }
+}

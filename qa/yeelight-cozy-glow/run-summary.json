@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-cozy-glow",
+  "display_name": "Yeelight Cozy Glow",
+  "reference_device": "cozy bedside lamp / warm ambient light",
+  "package_dir": "packages/yeelight-cozy-glow",
+  "spritesheet_webp": "packages/yeelight-cozy-glow/spritesheet.webp",
+  "spritesheet_png": "packages/yeelight-cozy-glow/spritesheet.png",
+  "validation": "qa/yeelight-cozy-glow/validation.json",
+  "contact_sheet": "qa/yeelight-cozy-glow/contact-sheet.png",
+  "preview_dir": "qa/yeelight-cozy-glow/previews",
+  "review": "qa/yeelight-cozy-glow/review.json"
+}

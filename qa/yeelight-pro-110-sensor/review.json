@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 110,
+    "seriesName": "S系列人在传感器",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/ed1600cf-ffa4-43b3-905e-67dacfd6098d.jpg",
+    "features": [
+      "AI主动学习",
+      "多档灵敏度调节",
+      "AI自适应调光",
+      "吸顶式隐藏安装"
+    ]
+  }
+}

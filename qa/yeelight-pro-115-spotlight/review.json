@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 115,
+    "seriesName": "D系列嵌入式射灯PLUS版",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/489ce194-c796-4bc9-9891-c0b3876c0ada.jpg",
+    "features": [
+      "双色温混光柔和",
+      "12W高功率",
+      "低蓝光芯片",
+      "无可视频闪"
+    ]
+  }
+}

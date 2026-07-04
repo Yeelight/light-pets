@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-canxingdiao",
+  "display_name": "餐星吊吊",
+  "reference_device": "智能吊灯 / Pendant Lamp",
+  "package_dir": "pet_packages/yeelight-canxingdiao",
+  "spritesheet_webp": "pet_packages/yeelight-canxingdiao/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-canxingdiao/spritesheet.png",
+  "validation": "qa/yeelight-canxingdiao/validation.json",
+  "contact_sheet": "qa/yeelight-canxingdiao/contact-sheet.png",
+  "preview_dir": "qa/yeelight-canxingdiao/previews",
+  "review": "qa/yeelight-canxingdiao/review.json"
+}

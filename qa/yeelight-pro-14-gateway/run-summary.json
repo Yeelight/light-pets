@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-14-gateway",
+  "display_name": "曜蓝中枢鲸14",
+  "reference_device": "S20 蓝牙Mesh网关",
+  "archetype": "gateway",
+  "source_id": 14,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series-images/c1571017-1ee4-481f-9f82-099afb83d19f.jpg",
+  "features": [
+    "接入米家智能家庭",
+    "接入Homekit",
+    "路由级Wi-Fi芯片",
+    "安全稳定"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-14-gateway",
+  "spritesheet_webp": "pet_packages/yeelight-pro-14-gateway/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-14-gateway/spritesheet.png",
+  "validation": "qa/yeelight-pro-14-gateway/validation.json",
+  "contact_sheet": "qa/yeelight-pro-14-gateway/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-14-gateway/previews",
+  "review": "qa/yeelight-pro-14-gateway/review.json"
+}

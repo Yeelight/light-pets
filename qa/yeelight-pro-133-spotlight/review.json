@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 133,
+    "seriesName": "S系列嵌入式筒射灯",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/409e31b7-c00c-4760-becd-1ff506be3ff5.jpg",
+    "features": [
+      "首创双色温透镜",
+      "模块化组合",
+      "领先小角度",
+      "用光致敬空间美学"
+    ]
+  }
+}

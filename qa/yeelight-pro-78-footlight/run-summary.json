@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-78-footlight",
+  "display_name": "米萤地脚萤78",
+  "reference_device": "H系列人体感应地脚灯",
+  "archetype": "footlight",
+  "source_id": 78,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/e3d16578-c291-4a98-b822-0fc59a4c585a.jpg",
+  "features": [
+    "嵌入安装",
+    "智能双感",
+    "柔和光效",
+    "超低能耗"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-78-footlight",
+  "spritesheet_webp": "pet_packages/yeelight-pro-78-footlight/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-78-footlight/spritesheet.png",
+  "validation": "qa/yeelight-pro-78-footlight/validation.json",
+  "contact_sheet": "qa/yeelight-pro-78-footlight/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-78-footlight/previews",
+  "review": "qa/yeelight-pro-78-footlight/review.json"
+}

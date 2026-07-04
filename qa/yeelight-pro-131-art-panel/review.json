@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 131,
+    "seriesName": "Yeelight Pro ART 开关面板 晶钻系列",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/5610c406-81c5-4155-a53c-be290c58e9fc.jpg",
+    "features": [
+      "钻石切割工艺",
+      "16道精工淬炼",
+      "百里挑一之作",
+      "万能百搭"
+    ]
+  }
+}

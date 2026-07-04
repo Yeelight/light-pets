@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-86-knob-switch",
+  "display_name": "灵光旋旋86",
+  "reference_device": "E系列旋钮开关",
+  "archetype": "knob",
+  "source_id": 86,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/9487bee6-89ea-4511-8536-36832372f04e.jpg",
+  "features": [
+    "丝滑调光体验",
+    "多场景应用",
+    "灵敏度可调",
+    "腕表级质感"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-86-knob-switch",
+  "spritesheet_webp": "pet_packages/yeelight-pro-86-knob-switch/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-86-knob-switch/spritesheet.png",
+  "validation": "qa/yeelight-pro-86-knob-switch/validation.json",
+  "contact_sheet": "qa/yeelight-pro-86-knob-switch/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-86-knob-switch/previews",
+  "review": "qa/yeelight-pro-86-knob-switch/review.json"
+}

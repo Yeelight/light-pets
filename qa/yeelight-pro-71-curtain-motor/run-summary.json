@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-71-curtain-motor",
+  "display_name": "曜蓝帘卷兽71",
+  "reference_device": "S21 窗帘电机",
+  "archetype": "curtain",
+  "source_id": 71,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/20924621-d20d-472e-b899-ea14503785f1.jpg",
+  "features": [
+    "80KG帘布载重",
+    "28dB超静音",
+    "24CM小巧精致",
+    "缓起缓停"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-71-curtain-motor",
+  "spritesheet_webp": "pet_packages/yeelight-pro-71-curtain-motor/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-71-curtain-motor/spritesheet.png",
+  "validation": "qa/yeelight-pro-71-curtain-motor/validation.json",
+  "contact_sheet": "qa/yeelight-pro-71-curtain-motor/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-71-curtain-motor/previews",
+  "review": "qa/yeelight-pro-71-curtain-motor/review.json"
+}

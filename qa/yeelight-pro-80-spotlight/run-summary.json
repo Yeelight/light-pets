@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-80-spotlight",
+  "display_name": "岚晶光瞳80",
+  "reference_device": "D系列嵌入式筒射灯",
+  "archetype": "spotlight",
+  "source_id": 80,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/42a33dd3-95a8-42a1-877a-3a89891b3001.jpg",
+  "features": [
+    "高显指好光",
+    "多重深防眩",
+    "家族化ID",
+    "极致性价比"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-80-spotlight",
+  "spritesheet_webp": "pet_packages/yeelight-pro-80-spotlight/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-80-spotlight/spritesheet.png",
+  "validation": "qa/yeelight-pro-80-spotlight/validation.json",
+  "contact_sheet": "qa/yeelight-pro-80-spotlight/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-80-spotlight/previews",
+  "review": "qa/yeelight-pro-80-spotlight/review.json"
+}

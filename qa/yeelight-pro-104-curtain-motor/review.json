@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 104,
+    "seriesName": "E系列智能卷帘电机",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/1d7f0a5c-a265-494b-a994-dc263f16f2bb.jpg",
+    "features": [
+      "一键升降",
+      "适配超多帘种",
+      "超静音 低至28分贝",
+      "多维控制场景联动"
+    ]
+  }
+}

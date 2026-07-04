@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 38,
+    "seriesName": "P20 人在传感器",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series-images/89d0faca-3f42-4ea5-b140-2762e89db465.jpg",
+    "features": [
+      "高精度毫米波脉冲雷达",
+      "微动检测",
+      "便于安装",
+      "超强续航"
+    ]
+  }
+}

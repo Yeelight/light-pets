@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 44,
+    "seriesName": "S21 人体红外传感器",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series-images/f9ba9042-2d9c-4bc5-b148-fe02cb9824c9.jpg",
+    "features": [
+      "广角移动监测",
+      "光线传感器",
+      "易于安装",
+      "续航长达3年"
+    ]
+  }
+}

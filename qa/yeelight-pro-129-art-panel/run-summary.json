@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-129-art-panel",
+  "display_name": "鎏艺艺面灵129",
+  "reference_device": "Yeelight Pro ART 开关面板 经典系列",
+  "archetype": "art_panel",
+  "source_id": 129,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/124fdd08-bc3f-4391-8a3f-f3ca235cee00.jpg",
+  "features": [
+    "极致美学",
+    "简于形、重于材",
+    "超精度抛光",
+    "温润感紫铜"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-129-art-panel",
+  "spritesheet_webp": "pet_packages/yeelight-pro-129-art-panel/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-129-art-panel/spritesheet.png",
+  "validation": "qa/yeelight-pro-129-art-panel/validation.json",
+  "contact_sheet": "qa/yeelight-pro-129-art-panel/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-129-art-panel/previews",
+  "review": "qa/yeelight-pro-129-art-panel/review.json"
+}

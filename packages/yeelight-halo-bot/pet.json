@@ -1,0 +1,7 @@
+{
+  "id": "yeelight-halo-bot",
+  "displayName": "Yeelight Halo Bot",
+  "description": "A cyber-cute hovering Yeelight robot with a cyan halo ring and a warm bulb companion.",
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "robot"
+}

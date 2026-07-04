@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 90,
+    "seriesName": "E+系列嵌入式射灯",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/0e790dee-66b4-412e-b8c0-aff899fb4a27.jpg",
+    "features": [
+      "超小型精灵电源",
+      "柔净混光技术",
+      "美术馆级高显指",
+      "万分级调光"
+    ]
+  }
+}

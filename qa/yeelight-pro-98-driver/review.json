@@ -1,0 +1,25 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 98,
+    "seriesName": "S系列低压驱动",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/38f7ccfa-e713-4203-9cab-7328da0ad4fe.jpg",
+    "features": [
+      "电信级稳定",
+      "智能低压驱动"
+    ]
+  }
+}

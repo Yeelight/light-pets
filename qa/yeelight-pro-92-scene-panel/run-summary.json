@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-92-scene-panel",
+  "display_name": "曜蓝场景团92",
+  "reference_device": "S系列墙面情景面板开关",
+  "archetype": "scene_panel",
+  "source_id": 92,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/fad79209-57c6-4355-a3b6-2259e7919d0c.jpg",
+  "features": [
+    "触控翻页",
+    "双传感器",
+    "奢级材质",
+    "情景模式自定义"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-92-scene-panel",
+  "spritesheet_webp": "pet_packages/yeelight-pro-92-scene-panel/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-92-scene-panel/spritesheet.png",
+  "validation": "qa/yeelight-pro-92-scene-panel/validation.json",
+  "contact_sheet": "qa/yeelight-pro-92-scene-panel/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-92-scene-panel/previews",
+  "review": "qa/yeelight-pro-92-scene-panel/review.json"
+}

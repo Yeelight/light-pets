@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 120,
+    "seriesName": "S系列护眼吸顶灯",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/b9d53c1b-5713-4afc-83f1-528f89700ad3.jpg",
+    "features": [
+      "Ra98全光谱护眼",
+      "快装设计",
+      "支持凌动",
+      "星空灯罩"
+    ]
+  }
+}

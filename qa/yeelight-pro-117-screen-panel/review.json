@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 117,
+    "seriesName": "S系列AI智慧屏",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/db731eb3-6609-4472-94c4-977f861544cb.jpg",
+    "features": [
+      "6.9英寸全面屏",
+      "旗舰AI运算芯片",
+      "场景化深度交互",
+      "双模网关"
+    ]
+  }
+}

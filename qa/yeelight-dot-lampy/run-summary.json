@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-dot-lampy",
+  "display_name": "Yeelight Dot Lampy",
+  "reference_device": "minimal desk lamp / round light helper",
+  "package_dir": "packages/yeelight-dot-lampy",
+  "spritesheet_webp": "packages/yeelight-dot-lampy/spritesheet.webp",
+  "spritesheet_png": "packages/yeelight-dot-lampy/spritesheet.png",
+  "validation": "qa/yeelight-dot-lampy/validation.json",
+  "contact_sheet": "qa/yeelight-dot-lampy/contact-sheet.png",
+  "preview_dir": "qa/yeelight-dot-lampy/previews",
+  "review": "qa/yeelight-dot-lampy/review.json"
+}

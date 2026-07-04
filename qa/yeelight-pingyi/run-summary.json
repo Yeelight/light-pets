@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pingyi",
+  "display_name": "屏翼小屏",
+  "reference_device": "屏幕挂灯 / Monitor Light Bar Pro",
+  "package_dir": "pet_packages/yeelight-pingyi",
+  "spritesheet_webp": "pet_packages/yeelight-pingyi/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pingyi/spritesheet.png",
+  "validation": "qa/yeelight-pingyi/validation.json",
+  "contact_sheet": "qa/yeelight-pingyi/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pingyi/previews",
+  "review": "qa/yeelight-pingyi/review.json"
+}

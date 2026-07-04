@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-pro-125-magnetic-track-light",
+  "display_name": "岚晶磁轨龙125",
+  "reference_device": "D系列色温磁吸灯",
+  "archetype": "track",
+  "source_id": 125,
+  "source_image": "https://cloud-bj-resources.yeelight.com/prod/series/8649ac41-06a3-4818-9ebf-38417cd796ef.jpg",
+  "features": [
+    "单驱动集控",
+    "全光谱高显",
+    "多元模组自由组合",
+    "万分级调光"
+  ],
+  "package_dir": "pet_packages/yeelight-pro-125-magnetic-track-light",
+  "spritesheet_webp": "pet_packages/yeelight-pro-125-magnetic-track-light/spritesheet.webp",
+  "spritesheet_png": "pet_packages/yeelight-pro-125-magnetic-track-light/spritesheet.png",
+  "validation": "qa/yeelight-pro-125-magnetic-track-light/validation.json",
+  "contact_sheet": "qa/yeelight-pro-125-magnetic-track-light/contact-sheet.png",
+  "preview_dir": "qa/yeelight-pro-125-magnetic-track-light/previews",
+  "review": "qa/yeelight-pro-125-magnetic-track-light/review.json"
+}

@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 113,
+    "seriesName": "S系列嵌入式格栅灯",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/8497840e-dcd6-4f7e-a1a0-1950ada0702f.jpg",
+    "features": [
+      "万分级调光",
+      "双色温混光柔和",
+      "大功率高亮度",
+      "大尺寸适配大宅"
+    ]
+  }
+}

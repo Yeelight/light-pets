@@ -1,0 +1,27 @@
+{
+  "visual_qa": "pass",
+  "notes": "Programmatic rich vector sprites inspected via generated contact sheet and state GIFs; no logos/text/UI in sprite cells; unused cells transparent; effects are attached to the mascot silhouette.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "source_reference": {
+    "id": 65,
+    "seriesName": "E20 六键情景面板",
+    "image": "https://cloud-bj-resources.yeelight.com/prod/series/6f06dbc3-71ab-4bb3-94da-61957ee6ebaa.jpeg",
+    "features": [
+      "家族化设计",
+      "鼠标级手感",
+      "断网容灾技术",
+      "零火贴装可选"
+    ]
+  }
+}
