@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-scene-screen-commander",
+  "display_name": "智屏小司令",
+  "collection": "yeelight-refined-hatch-pets",
+  "package_dir": "packages/yeelight-scene-screen-commander",
+  "spritesheet_webp": "packages/yeelight-scene-screen-commander/spritesheet.webp",
+  "spritesheet_png": "packages/yeelight-scene-screen-commander/spritesheet.png",
+  "validation": "qa/yeelight-scene-screen-commander/validation.json",
+  "validation_webp": "qa/yeelight-scene-screen-commander/validation-webp.json",
+  "contact_sheet": "qa/yeelight-scene-screen-commander/contact-sheet.png",
+  "preview_dir": "qa/yeelight-scene-screen-commander/previews",
+  "review": "qa/yeelight-scene-screen-commander/review.json"
+}

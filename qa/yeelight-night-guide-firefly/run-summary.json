@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-night-guide-firefly",
+  "display_name": "守夜地脚萤",
+  "collection": "yeelight-refined-hatch-pets",
+  "package_dir": "packages/yeelight-night-guide-firefly",
+  "spritesheet_webp": "packages/yeelight-night-guide-firefly/spritesheet.webp",
+  "spritesheet_png": "packages/yeelight-night-guide-firefly/spritesheet.png",
+  "validation": "qa/yeelight-night-guide-firefly/validation.json",
+  "validation_webp": "qa/yeelight-night-guide-firefly/validation-webp.json",
+  "contact_sheet": "qa/yeelight-night-guide-firefly/contact-sheet.png",
+  "preview_dir": "qa/yeelight-night-guide-firefly/previews",
+  "review": "qa/yeelight-night-guide-firefly/review.json"
+}

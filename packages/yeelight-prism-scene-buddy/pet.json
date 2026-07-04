@@ -1,0 +1,7 @@
+{
+  "id": "yeelight-prism-scene-buddy",
+  "displayName": "场景棱光仔",
+  "description": "A polished Yeelight scene-light pet inspired by smooth dimming, whole-home lighting scenes, and playful ambient color.",
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "3d-toy"
+}

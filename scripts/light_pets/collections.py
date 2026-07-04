@@ -25,12 +25,12 @@ def write_collection_readmes(collections: list[dict[str, Any]], pets: list[dict[
         for pet in by_collection.get(collection["id"], []):
             rows.append(
                 f"| {pet['display_name']} | `{pet['id']}` | `{pet['kind']}` | "
-                f"[package](../{pet['package_dir']}/) | [qa](../{Path(pet['contact_sheet']).parent.as_posix()}/) |"
+                f"[package](../../{pet['package_dir']}/) | [qa](../../{Path(pet['contact_sheet']).parent.as_posix()}/) |"
             )
 
         overview = ""
         if collection.get("overview_image"):
-            overview = f"\n![{collection['title']} overview](../{collection['overview_image']})\n"
+            overview = f"\n![{collection['title']} overview](../../{collection['overview_image']})\n"
 
         readme = f"""# {collection['title']}
 

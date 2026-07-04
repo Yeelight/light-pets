@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-micro-dim-bean",
+  "display_name": "微光豆豆",
+  "collection": "yeelight-refined-hatch-pets",
+  "package_dir": "packages/yeelight-micro-dim-bean",
+  "spritesheet_webp": "packages/yeelight-micro-dim-bean/spritesheet.webp",
+  "spritesheet_png": "packages/yeelight-micro-dim-bean/spritesheet.png",
+  "validation": "qa/yeelight-micro-dim-bean/validation.json",
+  "validation_webp": "qa/yeelight-micro-dim-bean/validation-webp.json",
+  "contact_sheet": "qa/yeelight-micro-dim-bean/contact-sheet.png",
+  "preview_dir": "qa/yeelight-micro-dim-bean/previews",
+  "review": "qa/yeelight-micro-dim-bean/review.json"
+}

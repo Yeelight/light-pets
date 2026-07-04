@@ -1,0 +1,7 @@
+{
+  "id": "yeelight-night-guide-firefly",
+  "displayName": "守夜地脚萤",
+  "description": "A warm Yeelight guidance pet inspired by footlights and subtle night navigation.",
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "3d-toy"
+}

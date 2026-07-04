@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-bath-bubble-whale",
+  "display_name": "浴暖泡泡鲸",
+  "collection": "yeelight-refined-hatch-pets",
+  "package_dir": "packages/yeelight-bath-bubble-whale",
+  "spritesheet_webp": "packages/yeelight-bath-bubble-whale/spritesheet.webp",
+  "spritesheet_png": "packages/yeelight-bath-bubble-whale/spritesheet.png",
+  "validation": "qa/yeelight-bath-bubble-whale/validation.json",
+  "validation_webp": "qa/yeelight-bath-bubble-whale/validation-webp.json",
+  "contact_sheet": "qa/yeelight-bath-bubble-whale/contact-sheet.png",
+  "preview_dir": "qa/yeelight-bath-bubble-whale/previews",
+  "review": "qa/yeelight-bath-bubble-whale/review.json"
+}

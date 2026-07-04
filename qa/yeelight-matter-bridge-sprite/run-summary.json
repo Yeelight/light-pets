@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-matter-bridge-sprite",
+  "display_name": "万联光桥灵",
+  "collection": "yeelight-refined-hatch-pets",
+  "package_dir": "packages/yeelight-matter-bridge-sprite",
+  "spritesheet_webp": "packages/yeelight-matter-bridge-sprite/spritesheet.webp",
+  "spritesheet_png": "packages/yeelight-matter-bridge-sprite/spritesheet.png",
+  "validation": "qa/yeelight-matter-bridge-sprite/validation.json",
+  "validation_webp": "qa/yeelight-matter-bridge-sprite/validation-webp.json",
+  "contact_sheet": "qa/yeelight-matter-bridge-sprite/contact-sheet.png",
+  "preview_dir": "qa/yeelight-matter-bridge-sprite/previews",
+  "review": "qa/yeelight-matter-bridge-sprite/review.json"
+}

@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-magnetic-track-dragon",
+  "display_name": "磁轨闪龙",
+  "collection": "yeelight-refined-hatch-pets",
+  "package_dir": "packages/yeelight-magnetic-track-dragon",
+  "spritesheet_webp": "packages/yeelight-magnetic-track-dragon/spritesheet.webp",
+  "spritesheet_png": "packages/yeelight-magnetic-track-dragon/spritesheet.png",
+  "validation": "qa/yeelight-magnetic-track-dragon/validation.json",
+  "validation_webp": "qa/yeelight-magnetic-track-dragon/validation-webp.json",
+  "contact_sheet": "qa/yeelight-magnetic-track-dragon/contact-sheet.png",
+  "preview_dir": "qa/yeelight-magnetic-track-dragon/previews",
+  "review": "qa/yeelight-magnetic-track-dragon/review.json"
+}

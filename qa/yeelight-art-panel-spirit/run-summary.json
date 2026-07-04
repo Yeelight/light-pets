@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-art-panel-spirit",
+  "display_name": "艺面纹理灵",
+  "collection": "yeelight-refined-hatch-pets",
+  "package_dir": "packages/yeelight-art-panel-spirit",
+  "spritesheet_webp": "packages/yeelight-art-panel-spirit/spritesheet.webp",
+  "spritesheet_png": "packages/yeelight-art-panel-spirit/spritesheet.png",
+  "validation": "qa/yeelight-art-panel-spirit/validation.json",
+  "validation_webp": "qa/yeelight-art-panel-spirit/validation-webp.json",
+  "contact_sheet": "qa/yeelight-art-panel-spirit/contact-sheet.png",
+  "preview_dir": "qa/yeelight-art-panel-spirit/previews",
+  "review": "qa/yeelight-art-panel-spirit/review.json"
+}

@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-rgb-jelly-strip",
+  "display_name": "RGB 果冻带",
+  "collection": "yeelight-refined-hatch-pets",
+  "package_dir": "packages/yeelight-rgb-jelly-strip",
+  "spritesheet_webp": "packages/yeelight-rgb-jelly-strip/spritesheet.webp",
+  "spritesheet_png": "packages/yeelight-rgb-jelly-strip/spritesheet.png",
+  "validation": "qa/yeelight-rgb-jelly-strip/validation.json",
+  "validation_webp": "qa/yeelight-rgb-jelly-strip/validation-webp.json",
+  "contact_sheet": "qa/yeelight-rgb-jelly-strip/contact-sheet.png",
+  "preview_dir": "qa/yeelight-rgb-jelly-strip/previews",
+  "review": "qa/yeelight-rgb-jelly-strip/review.json"
+}

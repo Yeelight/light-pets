@@ -1,6 +1,6 @@
 {
   "name": "light-pets",
-  "pet_count": 82,
+  "pet_count": 94,
   "atlas_contract": {
     "cell_size": [
       192,
@@ -3108,6 +3108,474 @@
         "waiting": "qa/yeelight-pro-99-smart-switch/previews/waiting.gif",
         "running": "qa/yeelight-pro-99-smart-switch/previews/running.gif",
         "review": "qa/yeelight-pro-99-smart-switch/previews/review.gif"
+      }
+    },
+    {
+      "id": "yeelight-art-panel-spirit",
+      "display_name": "艺面纹理灵",
+      "title_zh": "艺面纹理灵",
+      "description": "A decorative Yeelight art-panel pet inspired by premium material panels and tactile surface textures.",
+      "kind": "sticker",
+      "collection": "yeelight-refined-hatch-pets",
+      "reference_device": "art panel / premium material texture",
+      "personality": "elegant, clever, and decorative",
+      "tags": [
+        "art-panel",
+        "texture",
+        "decorative"
+      ],
+      "features": [
+        "material texture",
+        "premium decor",
+        "surface design"
+      ],
+      "package_dir": "packages/yeelight-art-panel-spirit",
+      "pet_json": "packages/yeelight-art-panel-spirit/pet.json",
+      "spritesheet_webp": "packages/yeelight-art-panel-spirit/spritesheet.webp",
+      "spritesheet_png": "packages/yeelight-art-panel-spirit/spritesheet.png",
+      "contact_sheet": "qa/yeelight-art-panel-spirit/contact-sheet.png",
+      "overview_image": "assets/overviews/yeelight-refined-hatch-pets.png",
+      "validation": "qa/yeelight-art-panel-spirit/validation.json",
+      "review": "qa/yeelight-art-panel-spirit/review.json",
+      "state_previews": {
+        "idle": "qa/yeelight-art-panel-spirit/previews/idle.gif",
+        "running-right": "qa/yeelight-art-panel-spirit/previews/running-right.gif",
+        "running-left": "qa/yeelight-art-panel-spirit/previews/running-left.gif",
+        "waving": "qa/yeelight-art-panel-spirit/previews/waving.gif",
+        "jumping": "qa/yeelight-art-panel-spirit/previews/jumping.gif",
+        "failed": "qa/yeelight-art-panel-spirit/previews/failed.gif",
+        "waiting": "qa/yeelight-art-panel-spirit/previews/waiting.gif",
+        "running": "qa/yeelight-art-panel-spirit/previews/running.gif",
+        "review": "qa/yeelight-art-panel-spirit/previews/review.gif"
+      }
+    },
+    {
+      "id": "yeelight-bath-bubble-whale",
+      "display_name": "浴暖泡泡鲸",
+      "title_zh": "浴暖泡泡鲸",
+      "description": "A funny Yeelight bath-heater pet inspired by warm airflow, bath comfort, and fresh bathroom light.",
+      "kind": "clay",
+      "collection": "yeelight-refined-hatch-pets",
+      "reference_device": "bath heater / bathroom comfort lighting",
+      "personality": "funny, warm, and reassuring",
+      "tags": [
+        "bath-heater",
+        "bathroom",
+        "whale"
+      ],
+      "features": [
+        "warm airflow",
+        "bath comfort",
+        "fresh bathroom light"
+      ],
+      "package_dir": "packages/yeelight-bath-bubble-whale",
+      "pet_json": "packages/yeelight-bath-bubble-whale/pet.json",
+      "spritesheet_webp": "packages/yeelight-bath-bubble-whale/spritesheet.webp",
+      "spritesheet_png": "packages/yeelight-bath-bubble-whale/spritesheet.png",
+      "contact_sheet": "qa/yeelight-bath-bubble-whale/contact-sheet.png",
+      "overview_image": "assets/overviews/yeelight-refined-hatch-pets.png",
+      "validation": "qa/yeelight-bath-bubble-whale/validation.json",
+      "review": "qa/yeelight-bath-bubble-whale/review.json",
+      "state_previews": {
+        "idle": "qa/yeelight-bath-bubble-whale/previews/idle.gif",
+        "running-right": "qa/yeelight-bath-bubble-whale/previews/running-right.gif",
+        "running-left": "qa/yeelight-bath-bubble-whale/previews/running-left.gif",
+        "waving": "qa/yeelight-bath-bubble-whale/previews/waving.gif",
+        "jumping": "qa/yeelight-bath-bubble-whale/previews/jumping.gif",
+        "failed": "qa/yeelight-bath-bubble-whale/previews/failed.gif",
+        "waiting": "qa/yeelight-bath-bubble-whale/previews/waiting.gif",
+        "running": "qa/yeelight-bath-bubble-whale/previews/running.gif",
+        "review": "qa/yeelight-bath-bubble-whale/previews/review.gif"
+      }
+    },
+    {
+      "id": "yeelight-knob-dance-disk",
+      "display_name": "旋钮舞盘仔",
+      "title_zh": "旋钮舞盘仔",
+      "description": "A cheeky Yeelight knob-control pet inspired by tactile dimming, rotation, and scene adjustment.",
+      "kind": "pixel",
+      "collection": "yeelight-refined-hatch-pets",
+      "reference_device": "knob control / tactile dimming",
+      "personality": "cheeky, rhythmic, and tactile",
+      "tags": [
+        "knob",
+        "dimming",
+        "pixel"
+      ],
+      "features": [
+        "tactile control",
+        "scene adjustment",
+        "precise rotation"
+      ],
+      "package_dir": "packages/yeelight-knob-dance-disk",
+      "pet_json": "packages/yeelight-knob-dance-disk/pet.json",
+      "spritesheet_webp": "packages/yeelight-knob-dance-disk/spritesheet.webp",
+      "spritesheet_png": "packages/yeelight-knob-dance-disk/spritesheet.png",
+      "contact_sheet": "qa/yeelight-knob-dance-disk/contact-sheet.png",
+      "overview_image": "assets/overviews/yeelight-refined-hatch-pets.png",
+      "validation": "qa/yeelight-knob-dance-disk/validation.json",
+      "review": "qa/yeelight-knob-dance-disk/review.json",
+      "state_previews": {
+        "idle": "qa/yeelight-knob-dance-disk/previews/idle.gif",
+        "running-right": "qa/yeelight-knob-dance-disk/previews/running-right.gif",
+        "running-left": "qa/yeelight-knob-dance-disk/previews/running-left.gif",
+        "waving": "qa/yeelight-knob-dance-disk/previews/waving.gif",
+        "jumping": "qa/yeelight-knob-dance-disk/previews/jumping.gif",
+        "failed": "qa/yeelight-knob-dance-disk/previews/failed.gif",
+        "waiting": "qa/yeelight-knob-dance-disk/previews/waiting.gif",
+        "running": "qa/yeelight-knob-dance-disk/previews/running.gif",
+        "review": "qa/yeelight-knob-dance-disk/previews/review.gif"
+      }
+    },
+    {
+      "id": "yeelight-magnetic-track-dragon",
+      "display_name": "磁轨闪龙",
+      "title_zh": "磁轨闪龙",
+      "description": "A cool modular Yeelight track-light pet inspired by magnetic track lighting and precision modules.",
+      "kind": "sticker",
+      "collection": "yeelight-refined-hatch-pets",
+      "reference_device": "magnetic track lighting / modular light modules",
+      "personality": "cool, agile, and modular",
+      "tags": [
+        "track-light",
+        "dragon",
+        "modular"
+      ],
+      "features": [
+        "magnetic track",
+        "modular layout",
+        "precision lighting"
+      ],
+      "package_dir": "packages/yeelight-magnetic-track-dragon",
+      "pet_json": "packages/yeelight-magnetic-track-dragon/pet.json",
+      "spritesheet_webp": "packages/yeelight-magnetic-track-dragon/spritesheet.webp",
+      "spritesheet_png": "packages/yeelight-magnetic-track-dragon/spritesheet.png",
+      "contact_sheet": "qa/yeelight-magnetic-track-dragon/contact-sheet.png",
+      "overview_image": "assets/overviews/yeelight-refined-hatch-pets.png",
+      "validation": "qa/yeelight-magnetic-track-dragon/validation.json",
+      "review": "qa/yeelight-magnetic-track-dragon/review.json",
+      "state_previews": {
+        "idle": "qa/yeelight-magnetic-track-dragon/previews/idle.gif",
+        "running-right": "qa/yeelight-magnetic-track-dragon/previews/running-right.gif",
+        "running-left": "qa/yeelight-magnetic-track-dragon/previews/running-left.gif",
+        "waving": "qa/yeelight-magnetic-track-dragon/previews/waving.gif",
+        "jumping": "qa/yeelight-magnetic-track-dragon/previews/jumping.gif",
+        "failed": "qa/yeelight-magnetic-track-dragon/previews/failed.gif",
+        "waiting": "qa/yeelight-magnetic-track-dragon/previews/waiting.gif",
+        "running": "qa/yeelight-magnetic-track-dragon/previews/running.gif",
+        "review": "qa/yeelight-magnetic-track-dragon/previews/review.gif"
+      }
+    },
+    {
+      "id": "yeelight-matter-bridge-sprite",
+      "display_name": "万联光桥灵",
+      "title_zh": "万联光桥灵",
+      "description": "A tech-cute Yeelight ecosystem pet inspired by Matter-style compatibility and smart-home bridging.",
+      "kind": "brand-inspired",
+      "collection": "yeelight-refined-hatch-pets",
+      "reference_device": "smart-home bridge / cross-platform compatibility",
+      "personality": "friendly, connective, and precise",
+      "tags": [
+        "bridge",
+        "matter",
+        "ecosystem"
+      ],
+      "features": [
+        "compatibility",
+        "smart-home linking",
+        "stable control"
+      ],
+      "package_dir": "packages/yeelight-matter-bridge-sprite",
+      "pet_json": "packages/yeelight-matter-bridge-sprite/pet.json",
+      "spritesheet_webp": "packages/yeelight-matter-bridge-sprite/spritesheet.webp",
+      "spritesheet_png": "packages/yeelight-matter-bridge-sprite/spritesheet.png",
+      "contact_sheet": "qa/yeelight-matter-bridge-sprite/contact-sheet.png",
+      "overview_image": "assets/overviews/yeelight-refined-hatch-pets.png",
+      "validation": "qa/yeelight-matter-bridge-sprite/validation.json",
+      "review": "qa/yeelight-matter-bridge-sprite/review.json",
+      "state_previews": {
+        "idle": "qa/yeelight-matter-bridge-sprite/previews/idle.gif",
+        "running-right": "qa/yeelight-matter-bridge-sprite/previews/running-right.gif",
+        "running-left": "qa/yeelight-matter-bridge-sprite/previews/running-left.gif",
+        "waving": "qa/yeelight-matter-bridge-sprite/previews/waving.gif",
+        "jumping": "qa/yeelight-matter-bridge-sprite/previews/jumping.gif",
+        "failed": "qa/yeelight-matter-bridge-sprite/previews/failed.gif",
+        "waiting": "qa/yeelight-matter-bridge-sprite/previews/waiting.gif",
+        "running": "qa/yeelight-matter-bridge-sprite/previews/running.gif",
+        "review": "qa/yeelight-matter-bridge-sprite/previews/review.gif"
+      }
+    },
+    {
+      "id": "yeelight-micro-dim-bean",
+      "display_name": "微光豆豆",
+      "title_zh": "微光豆豆",
+      "description": "A tiny Yeelight dimming pet inspired by precise low-brightness control and quiet night light.",
+      "kind": "flat-vector",
+      "collection": "yeelight-refined-hatch-pets",
+      "reference_device": "micro dimming / low-brightness night light",
+      "personality": "quiet, tiny, and careful",
+      "tags": [
+        "dimming",
+        "night",
+        "minimal"
+      ],
+      "features": [
+        "low-brightness control",
+        "sleep-friendly light",
+        "fine dimming"
+      ],
+      "package_dir": "packages/yeelight-micro-dim-bean",
+      "pet_json": "packages/yeelight-micro-dim-bean/pet.json",
+      "spritesheet_webp": "packages/yeelight-micro-dim-bean/spritesheet.webp",
+      "spritesheet_png": "packages/yeelight-micro-dim-bean/spritesheet.png",
+      "contact_sheet": "qa/yeelight-micro-dim-bean/contact-sheet.png",
+      "overview_image": "assets/overviews/yeelight-refined-hatch-pets.png",
+      "validation": "qa/yeelight-micro-dim-bean/validation.json",
+      "review": "qa/yeelight-micro-dim-bean/review.json",
+      "state_previews": {
+        "idle": "qa/yeelight-micro-dim-bean/previews/idle.gif",
+        "running-right": "qa/yeelight-micro-dim-bean/previews/running-right.gif",
+        "running-left": "qa/yeelight-micro-dim-bean/previews/running-left.gif",
+        "waving": "qa/yeelight-micro-dim-bean/previews/waving.gif",
+        "jumping": "qa/yeelight-micro-dim-bean/previews/jumping.gif",
+        "failed": "qa/yeelight-micro-dim-bean/previews/failed.gif",
+        "waiting": "qa/yeelight-micro-dim-bean/previews/waiting.gif",
+        "running": "qa/yeelight-micro-dim-bean/previews/running.gif",
+        "review": "qa/yeelight-micro-dim-bean/previews/review.gif"
+      }
+    },
+    {
+      "id": "yeelight-night-guide-firefly",
+      "display_name": "守夜地脚萤",
+      "title_zh": "守夜地脚萤",
+      "description": "A warm Yeelight guidance pet inspired by footlights and subtle night navigation.",
+      "kind": "3d-toy",
+      "collection": "yeelight-refined-hatch-pets",
+      "reference_device": "footlight / night guidance",
+      "personality": "warm, helpful, and low-key",
+      "tags": [
+        "footlight",
+        "guidance",
+        "firefly"
+      ],
+      "features": [
+        "night navigation",
+        "low glare",
+        "warm guidance"
+      ],
+      "package_dir": "packages/yeelight-night-guide-firefly",
+      "pet_json": "packages/yeelight-night-guide-firefly/pet.json",
+      "spritesheet_webp": "packages/yeelight-night-guide-firefly/spritesheet.webp",
+      "spritesheet_png": "packages/yeelight-night-guide-firefly/spritesheet.png",
+      "contact_sheet": "qa/yeelight-night-guide-firefly/contact-sheet.png",
+      "overview_image": "assets/overviews/yeelight-refined-hatch-pets.png",
+      "validation": "qa/yeelight-night-guide-firefly/validation.json",
+      "review": "qa/yeelight-night-guide-firefly/review.json",
+      "state_previews": {
+        "idle": "qa/yeelight-night-guide-firefly/previews/idle.gif",
+        "running-right": "qa/yeelight-night-guide-firefly/previews/running-right.gif",
+        "running-left": "qa/yeelight-night-guide-firefly/previews/running-left.gif",
+        "waving": "qa/yeelight-night-guide-firefly/previews/waving.gif",
+        "jumping": "qa/yeelight-night-guide-firefly/previews/jumping.gif",
+        "failed": "qa/yeelight-night-guide-firefly/previews/failed.gif",
+        "waiting": "qa/yeelight-night-guide-firefly/previews/waiting.gif",
+        "running": "qa/yeelight-night-guide-firefly/previews/running.gif",
+        "review": "qa/yeelight-night-guide-firefly/previews/review.gif"
+      }
+    },
+    {
+      "id": "yeelight-prism-scene-buddy",
+      "display_name": "场景棱光仔",
+      "title_zh": "场景棱光仔",
+      "description": "A polished Yeelight scene-light pet inspired by smooth dimming, whole-home lighting scenes, and playful ambient color.",
+      "kind": "3d-toy",
+      "collection": "yeelight-refined-hatch-pets",
+      "reference_device": "whole-home scenes / ambient scene control",
+      "personality": "playful, polished, and cinematic",
+      "tags": [
+        "scene",
+        "prism",
+        "ambient"
+      ],
+      "features": [
+        "whole-home scenes",
+        "smooth dimming",
+        "color ambience"
+      ],
+      "package_dir": "packages/yeelight-prism-scene-buddy",
+      "pet_json": "packages/yeelight-prism-scene-buddy/pet.json",
+      "spritesheet_webp": "packages/yeelight-prism-scene-buddy/spritesheet.webp",
+      "spritesheet_png": "packages/yeelight-prism-scene-buddy/spritesheet.png",
+      "contact_sheet": "qa/yeelight-prism-scene-buddy/contact-sheet.png",
+      "overview_image": "assets/overviews/yeelight-refined-hatch-pets.png",
+      "validation": "qa/yeelight-prism-scene-buddy/validation.json",
+      "review": "qa/yeelight-prism-scene-buddy/review.json",
+      "state_previews": {
+        "idle": "qa/yeelight-prism-scene-buddy/previews/idle.gif",
+        "running-right": "qa/yeelight-prism-scene-buddy/previews/running-right.gif",
+        "running-left": "qa/yeelight-prism-scene-buddy/previews/running-left.gif",
+        "waving": "qa/yeelight-prism-scene-buddy/previews/waving.gif",
+        "jumping": "qa/yeelight-prism-scene-buddy/previews/jumping.gif",
+        "failed": "qa/yeelight-prism-scene-buddy/previews/failed.gif",
+        "waiting": "qa/yeelight-prism-scene-buddy/previews/waiting.gif",
+        "running": "qa/yeelight-prism-scene-buddy/previews/running.gif",
+        "review": "qa/yeelight-prism-scene-buddy/previews/review.gif"
+      }
+    },
+    {
+      "id": "yeelight-qingkong-cloud-whale",
+      "display_name": "青空云窗鲸",
+      "title_zh": "青空云窗鲸",
+      "description": "A gentle Yeelight skylight pet inspired by natural sky lighting and calming indoor daylight.",
+      "kind": "plush",
+      "collection": "yeelight-refined-hatch-pets",
+      "reference_device": "Qingkong skylight / natural daylight",
+      "personality": "gentle, calm, and airy",
+      "tags": [
+        "qingkong",
+        "daylight",
+        "plush"
+      ],
+      "features": [
+        "natural sky light",
+        "soft daylight",
+        "calming scenes"
+      ],
+      "package_dir": "packages/yeelight-qingkong-cloud-whale",
+      "pet_json": "packages/yeelight-qingkong-cloud-whale/pet.json",
+      "spritesheet_webp": "packages/yeelight-qingkong-cloud-whale/spritesheet.webp",
+      "spritesheet_png": "packages/yeelight-qingkong-cloud-whale/spritesheet.png",
+      "contact_sheet": "qa/yeelight-qingkong-cloud-whale/contact-sheet.png",
+      "overview_image": "assets/overviews/yeelight-refined-hatch-pets.png",
+      "validation": "qa/yeelight-qingkong-cloud-whale/validation.json",
+      "review": "qa/yeelight-qingkong-cloud-whale/review.json",
+      "state_previews": {
+        "idle": "qa/yeelight-qingkong-cloud-whale/previews/idle.gif",
+        "running-right": "qa/yeelight-qingkong-cloud-whale/previews/running-right.gif",
+        "running-left": "qa/yeelight-qingkong-cloud-whale/previews/running-left.gif",
+        "waving": "qa/yeelight-qingkong-cloud-whale/previews/waving.gif",
+        "jumping": "qa/yeelight-qingkong-cloud-whale/previews/jumping.gif",
+        "failed": "qa/yeelight-qingkong-cloud-whale/previews/failed.gif",
+        "waiting": "qa/yeelight-qingkong-cloud-whale/previews/waiting.gif",
+        "running": "qa/yeelight-qingkong-cloud-whale/previews/running.gif",
+        "review": "qa/yeelight-qingkong-cloud-whale/previews/review.gif"
+      }
+    },
+    {
+      "id": "yeelight-radar-peek-cat",
+      "display_name": "雷达偷看猫",
+      "title_zh": "雷达偷看猫",
+      "description": "A goofy Yeelight sensing pet inspired by presence detection and automatic lighting scenes.",
+      "kind": "clay",
+      "collection": "yeelight-refined-hatch-pets",
+      "reference_device": "presence sensor / automatic lighting",
+      "personality": "goofy, curious, and alert",
+      "tags": [
+        "sensor",
+        "presence",
+        "cat"
+      ],
+      "features": [
+        "presence sensing",
+        "automation trigger",
+        "hands-free lighting"
+      ],
+      "package_dir": "packages/yeelight-radar-peek-cat",
+      "pet_json": "packages/yeelight-radar-peek-cat/pet.json",
+      "spritesheet_webp": "packages/yeelight-radar-peek-cat/spritesheet.webp",
+      "spritesheet_png": "packages/yeelight-radar-peek-cat/spritesheet.png",
+      "contact_sheet": "qa/yeelight-radar-peek-cat/contact-sheet.png",
+      "overview_image": "assets/overviews/yeelight-refined-hatch-pets.png",
+      "validation": "qa/yeelight-radar-peek-cat/validation.json",
+      "review": "qa/yeelight-radar-peek-cat/review.json",
+      "state_previews": {
+        "idle": "qa/yeelight-radar-peek-cat/previews/idle.gif",
+        "running-right": "qa/yeelight-radar-peek-cat/previews/running-right.gif",
+        "running-left": "qa/yeelight-radar-peek-cat/previews/running-left.gif",
+        "waving": "qa/yeelight-radar-peek-cat/previews/waving.gif",
+        "jumping": "qa/yeelight-radar-peek-cat/previews/jumping.gif",
+        "failed": "qa/yeelight-radar-peek-cat/previews/failed.gif",
+        "waiting": "qa/yeelight-radar-peek-cat/previews/waiting.gif",
+        "running": "qa/yeelight-radar-peek-cat/previews/running.gif",
+        "review": "qa/yeelight-radar-peek-cat/previews/review.gif"
+      }
+    },
+    {
+      "id": "yeelight-rgb-jelly-strip",
+      "display_name": "RGB 果冻带",
+      "title_zh": "RGB 果冻带",
+      "description": "A playful Yeelight lightstrip pet inspired by RGB ambience, music moods, and flexible color scenes.",
+      "kind": "painterly",
+      "collection": "yeelight-refined-hatch-pets",
+      "reference_device": "RGB lightstrip / flexible ambience",
+      "personality": "playful, colorful, and elastic",
+      "tags": [
+        "lightstrip",
+        "rgb",
+        "jelly"
+      ],
+      "features": [
+        "RGB scenes",
+        "flexible install",
+        "music mood lighting"
+      ],
+      "package_dir": "packages/yeelight-rgb-jelly-strip",
+      "pet_json": "packages/yeelight-rgb-jelly-strip/pet.json",
+      "spritesheet_webp": "packages/yeelight-rgb-jelly-strip/spritesheet.webp",
+      "spritesheet_png": "packages/yeelight-rgb-jelly-strip/spritesheet.png",
+      "contact_sheet": "qa/yeelight-rgb-jelly-strip/contact-sheet.png",
+      "overview_image": "assets/overviews/yeelight-refined-hatch-pets.png",
+      "validation": "qa/yeelight-rgb-jelly-strip/validation.json",
+      "review": "qa/yeelight-rgb-jelly-strip/review.json",
+      "state_previews": {
+        "idle": "qa/yeelight-rgb-jelly-strip/previews/idle.gif",
+        "running-right": "qa/yeelight-rgb-jelly-strip/previews/running-right.gif",
+        "running-left": "qa/yeelight-rgb-jelly-strip/previews/running-left.gif",
+        "waving": "qa/yeelight-rgb-jelly-strip/previews/waving.gif",
+        "jumping": "qa/yeelight-rgb-jelly-strip/previews/jumping.gif",
+        "failed": "qa/yeelight-rgb-jelly-strip/previews/failed.gif",
+        "waiting": "qa/yeelight-rgb-jelly-strip/previews/waiting.gif",
+        "running": "qa/yeelight-rgb-jelly-strip/previews/running.gif",
+        "review": "qa/yeelight-rgb-jelly-strip/previews/review.gif"
+      }
+    },
+    {
+      "id": "yeelight-scene-screen-commander",
+      "display_name": "智屏小司令",
+      "title_zh": "智屏小司令",
+      "description": "A cool Yeelight screen-control pet inspired by whole-home scene panels and smart interaction.",
+      "kind": "brand-inspired",
+      "collection": "yeelight-refined-hatch-pets",
+      "reference_device": "scene screen / smart interaction panel",
+      "personality": "focused, confident, and tech-cool",
+      "tags": [
+        "screen",
+        "scene-control",
+        "robot"
+      ],
+      "features": [
+        "whole-home control",
+        "scene interaction",
+        "smart panel"
+      ],
+      "package_dir": "packages/yeelight-scene-screen-commander",
+      "pet_json": "packages/yeelight-scene-screen-commander/pet.json",
+      "spritesheet_webp": "packages/yeelight-scene-screen-commander/spritesheet.webp",
+      "spritesheet_png": "packages/yeelight-scene-screen-commander/spritesheet.png",
+      "contact_sheet": "qa/yeelight-scene-screen-commander/contact-sheet.png",
+      "overview_image": "assets/overviews/yeelight-refined-hatch-pets.png",
+      "validation": "qa/yeelight-scene-screen-commander/validation.json",
+      "review": "qa/yeelight-scene-screen-commander/review.json",
+      "state_previews": {
+        "idle": "qa/yeelight-scene-screen-commander/previews/idle.gif",
+        "running-right": "qa/yeelight-scene-screen-commander/previews/running-right.gif",
+        "running-left": "qa/yeelight-scene-screen-commander/previews/running-left.gif",
+        "waving": "qa/yeelight-scene-screen-commander/previews/waving.gif",
+        "jumping": "qa/yeelight-scene-screen-commander/previews/jumping.gif",
+        "failed": "qa/yeelight-scene-screen-commander/previews/failed.gif",
+        "waiting": "qa/yeelight-scene-screen-commander/previews/waiting.gif",
+        "running": "qa/yeelight-scene-screen-commander/previews/running.gif",
+        "review": "qa/yeelight-scene-screen-commander/previews/review.gif"
       }
     }
   ]

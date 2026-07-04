@@ -1,0 +1,7 @@
+{
+  "id": "yeelight-rgb-jelly-strip",
+  "displayName": "RGB 果冻带",
+  "description": "A playful Yeelight lightstrip pet inspired by RGB ambience, music moods, and flexible color scenes.",
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "painterly"
+}

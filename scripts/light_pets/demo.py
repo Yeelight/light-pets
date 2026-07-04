@@ -93,6 +93,11 @@ def write_demo(pets: list[dict[str, Any]], collections: list[dict[str, Any]]) ->
     chips = ['<button class="chip is-active" data-filter="all">全部</button>']
     chips.extend(f'<button class="chip" data-filter="{c["id"]}">{html.escape(c["title"])} · {c["pet_count"]}</button>' for c in collections)
     cards = "\n".join(pet_card(p) for p in pets)
+    overview_images = "\n".join(
+        f'      <img src="{demo_rel(ROOT / collection["overview_image"])}" alt="{html.escape(collection["title"])} overview">'
+        for collection in collections
+        if collection.get("overview_image")
+    )
     html_doc = f"""<!doctype html>
 <html lang="zh-CN">
 <head>
@@ -110,9 +115,7 @@ def write_demo(pets: list[dict[str, Any]], collections: list[dict[str, Any]]) ->
       <div class="stats"><span>{len(pets)} pets</span><span>8 x 9 atlas</span><span>192 x 208 cells</span><span>9 states</span></div>
     </section>
     <section class="hero-board" aria-label="overview images">
-      <img src="../assets/overviews/yeelight-hatch-pet-full-batch.png" alt="Yeelight hatch pet overview">
-      <img src="../qa/yeelight-cozy-glow/contact-sheet.png" alt="Yeelight cozy glow contact sheet">
-      <img src="../assets/overviews/yeelight-pro-hatch-pet-batch.png" alt="Yeelight Pro hatch pet overview">
+{overview_images}
     </section>
   </header>
   <main>

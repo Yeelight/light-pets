@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-qingkong-cloud-whale",
+  "display_name": "青空云窗鲸",
+  "collection": "yeelight-refined-hatch-pets",
+  "package_dir": "packages/yeelight-qingkong-cloud-whale",
+  "spritesheet_webp": "packages/yeelight-qingkong-cloud-whale/spritesheet.webp",
+  "spritesheet_png": "packages/yeelight-qingkong-cloud-whale/spritesheet.png",
+  "validation": "qa/yeelight-qingkong-cloud-whale/validation.json",
+  "validation_webp": "qa/yeelight-qingkong-cloud-whale/validation-webp.json",
+  "contact_sheet": "qa/yeelight-qingkong-cloud-whale/contact-sheet.png",
+  "preview_dir": "qa/yeelight-qingkong-cloud-whale/previews",
+  "review": "qa/yeelight-qingkong-cloud-whale/review.json"
+}

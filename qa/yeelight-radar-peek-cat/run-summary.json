@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-radar-peek-cat",
+  "display_name": "雷达偷看猫",
+  "collection": "yeelight-refined-hatch-pets",
+  "package_dir": "packages/yeelight-radar-peek-cat",
+  "spritesheet_webp": "packages/yeelight-radar-peek-cat/spritesheet.webp",
+  "spritesheet_png": "packages/yeelight-radar-peek-cat/spritesheet.png",
+  "validation": "qa/yeelight-radar-peek-cat/validation.json",
+  "validation_webp": "qa/yeelight-radar-peek-cat/validation-webp.json",
+  "contact_sheet": "qa/yeelight-radar-peek-cat/contact-sheet.png",
+  "preview_dir": "qa/yeelight-radar-peek-cat/previews",
+  "review": "qa/yeelight-radar-peek-cat/review.json"
+}

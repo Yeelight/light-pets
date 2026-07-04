@@ -1,0 +1,7 @@
+{
+  "id": "yeelight-radar-peek-cat",
+  "displayName": "雷达偷看猫",
+  "description": "A goofy Yeelight sensing pet inspired by presence detection and automatic lighting scenes.",
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "clay"
+}

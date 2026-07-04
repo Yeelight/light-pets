@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-prism-scene-buddy",
+  "display_name": "场景棱光仔",
+  "collection": "yeelight-refined-hatch-pets",
+  "package_dir": "packages/yeelight-prism-scene-buddy",
+  "spritesheet_webp": "packages/yeelight-prism-scene-buddy/spritesheet.webp",
+  "spritesheet_png": "packages/yeelight-prism-scene-buddy/spritesheet.png",
+  "validation": "qa/yeelight-prism-scene-buddy/validation.json",
+  "validation_webp": "qa/yeelight-prism-scene-buddy/validation-webp.json",
+  "contact_sheet": "qa/yeelight-prism-scene-buddy/contact-sheet.png",
+  "preview_dir": "qa/yeelight-prism-scene-buddy/previews",
+  "review": "qa/yeelight-prism-scene-buddy/review.json"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "yeelight-micro-dim-bean",
+  "displayName": "微光豆豆",
+  "description": "A tiny Yeelight dimming pet inspired by precise low-brightness control and quiet night light.",
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "flat-vector"
+}

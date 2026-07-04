@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "pet_id": "yeelight-knob-dance-disk",
+  "display_name": "旋钮舞盘仔",
+  "collection": "yeelight-refined-hatch-pets",
+  "package_dir": "packages/yeelight-knob-dance-disk",
+  "spritesheet_webp": "packages/yeelight-knob-dance-disk/spritesheet.webp",
+  "spritesheet_png": "packages/yeelight-knob-dance-disk/spritesheet.png",
+  "validation": "qa/yeelight-knob-dance-disk/validation.json",
+  "validation_webp": "qa/yeelight-knob-dance-disk/validation-webp.json",
+  "contact_sheet": "qa/yeelight-knob-dance-disk/contact-sheet.png",
+  "preview_dir": "qa/yeelight-knob-dance-disk/previews",
+  "review": "qa/yeelight-knob-dance-disk/review.json"
+}

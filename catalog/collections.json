@@ -108,6 +108,27 @@
         "yeelight-pro-98-driver",
         "yeelight-pro-99-smart-switch"
       ]
+    },
+    {
+      "id": "yeelight-refined-hatch-pets",
+      "title": "Yeelight Refined Hatch Pets",
+      "summary": "12 high-polish Codex pets inspired by Yeelight scenes, controls, sensors, lightstrips, panels, and comfort lighting.",
+      "overview_image": "assets/overviews/yeelight-refined-hatch-pets.png",
+      "pet_count": 12,
+      "pets": [
+        "yeelight-art-panel-spirit",
+        "yeelight-bath-bubble-whale",
+        "yeelight-knob-dance-disk",
+        "yeelight-magnetic-track-dragon",
+        "yeelight-matter-bridge-sprite",
+        "yeelight-micro-dim-bean",
+        "yeelight-night-guide-firefly",
+        "yeelight-prism-scene-buddy",
+        "yeelight-qingkong-cloud-whale",
+        "yeelight-radar-peek-cat",
+        "yeelight-rgb-jelly-strip",
+        "yeelight-scene-screen-commander"
+      ]
     }
   ]
 }

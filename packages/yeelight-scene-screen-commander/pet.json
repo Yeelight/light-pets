@@ -1,0 +1,7 @@
+{
+  "id": "yeelight-scene-screen-commander",
+  "displayName": "智屏小司令",
+  "description": "A cool Yeelight screen-control pet inspired by whole-home scene panels and smart interaction.",
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "brand-inspired"
+}

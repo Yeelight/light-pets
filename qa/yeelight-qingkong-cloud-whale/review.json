@@ -1,0 +1,22 @@
+{
+  "visual_qa": "pass",
+  "notes": "Final atlas passed PNG/WebP validation and contact-sheet review for all 9 Codex hatch-pet states.",
+  "state_order": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "blocked_rows": [],
+  "checks": {
+    "atlas_png": "pass",
+    "atlas_webp": "pass",
+    "contact_sheet_review": "pass",
+    "state_gif_count": 9
+  }
+}
