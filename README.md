@@ -1,102 +1,171 @@
 # Light Pets
 
-Light Pets 是一组可安装的 Codex hatch pets 资源集合，主题来自智能照明设备的形态、材质和状态语义。当前公开目录包含 82 只 pet：
+简体中文 | [English](README.en.md)
 
-- 5 只精选单宠：补齐了 README、PNG 备份、QA、状态 GIF、验证结果和设计提示。
-- 12 只 Yeelight residential batch pets：已整理到 `packages/` 和 `qa/`。
-- 65 只 Yeelight Pro batch pets：已整理到 `packages/` 和 `qa/`。
+Light Pets 是一套可以直接安装到 Codex 的桌面宠物资源。它们把灯泡、灯带、开关、传感器、面板、网关等智能照明元素变成小宠物：有静态预览图，也有状态动图，方便你先看效果再挑选安装。
 
-![Light Pets overview](assets/overviews/yeelight-hatch-pet-full-batch.png)
+当前仓库包含 **82 只 PET**，分成 3 组：精选单宠、Yeelight 家居灯光系列、Yeelight Pro 系列。
 
-## 快速查看
+<p>
+  <img src="qa/yeelight-cozy-glow/contact-sheet.png" alt="精选单宠预览" width="260">
+  <img src="assets/overviews/yeelight-hatch-pet-full-batch.png" alt="Yeelight 家居灯光系列总览" width="260">
+  <img src="assets/overviews/yeelight-pro-hatch-pet-batch.png" alt="Yeelight Pro 系列总览" width="260">
+</p>
 
-直接打开本地 demo：
+## 快速预览
+
+想先看完整效果，下载或克隆仓库后直接打开 demo：
 
 ```bash
+git clone https://github.com/Yeelight/light-pets.git
+cd light-pets
 open "demo/index.html"
 ```
 
-或用任意静态服务器预览：
+如果浏览器限制本地文件访问，可以启动一个静态预览服务：
 
 ```bash
 python3 -m http.server 8080
 ```
 
-然后访问 `http://localhost:8080/demo/`。
+然后访问 `http://localhost:8080/demo/`。demo 里可以搜索、按系列筛选，并查看每只 PET 的 9 个状态动图。
 
-## 安装单只 pet
+## 安装一只 PET
 
-每只 pet 的可安装包只需要两个文件：
+每只 PET 的安装文件都在 `packages/<pet-id>/` 下面。通常只需要复制这两个文件到 Codex 的自定义宠物目录：
 
-```text
-pet.json
-spritesheet.webp
-```
+- `pet.json`
+- `spritesheet.webp`
 
-把某个 pet 目录里的这两个文件复制到 Codex 自定义 pet 目录即可。`spritesheet.png`、`qa/`、`validation.json` 等文件用于复核与展示，不是运行时必需文件。
-
-## 项目结构
+例如安装 `yeelight-cozy-glow`：
 
 ```text
-.
-├── catalog/                  # 机器可读的统一索引
-├── collections/              # collection 级说明文档
-├── demo/                     # 静态 HTML 展示页
-├── docs/                     # 资产契约、目录规范和发布说明
-├── packages/                 # 可安装 pet 包
-├── qa/                       # contact sheet、状态 GIF、验证结果
-├── assets/overviews/         # collection 总览图
-├── scripts/                  # 构建与校验脚本
-└── .github/workflows/        # GitHub Actions 校验
+packages/yeelight-cozy-glow/pet.json
+packages/yeelight-cozy-glow/spritesheet.webp
 ```
 
-更详细的目录约定见 [docs/PROJECT_STRUCTURE.md](docs/PROJECT_STRUCTURE.md)。
+旁边的 `qa/<pet-id>/` 目录放的是更多预览图和状态动图，适合安装前先看清楚效果。
 
-## 资源契约
+## 怎么选
 
-所有 pet 遵循同一个 hatch-pet atlas 契约：
+- 想先体验完整度最高的，选 **精选单宠**。
+- 想要更偏家庭灯光氛围的，选 **Yeelight 家居灯光系列**。
+- 想按 Pro 产品类型挑，比如开关、射灯、灯带、传感器、网关，选 **Yeelight Pro 系列**。
 
-- atlas：`1536 x 1872`
-- 网格：`8 列 x 9 行`
-- 单元格：`192 x 208`
-- 状态顺序：`idle`、`running-right`、`running-left`、`waving`、`jumping`、`failed`、`waiting`、`running`、`review`
+下面每一行都给了静态图和待机动图。想看完整动作，点「全部动图」或打开 demo。
 
-完整契约见 [docs/ASSET_CONTRACT.md](docs/ASSET_CONTRACT.md)。
+## 全部 PET 速览
 
-## 构建与验证
+### 精选单宠 · 5 只
 
-安装依赖：
+5 只完成度最高的独立 PET，适合先试用和快速感受整体风格。
 
-```bash
-python3 -m pip install -r requirements.txt
-```
+| PET | 静态预览 | 待机动图 | 简介 | 入口 |
+| --- | --- | --- | --- | --- |
+| 暖绒微光<br><sub>Yeelight Cozy Glow</sub> | <img src="qa/yeelight-cozy-glow/contact-sheet.png" alt="暖绒微光 静态预览" width="128"> | <img src="qa/yeelight-cozy-glow/previews/idle.gif" alt="暖绒微光 待机动图" width="80"> | 抱着暖色小灯的柔软兔形灯宠，适合床头和安静氛围。 | [安装包](packages/yeelight-cozy-glow/) · [全部动图](qa/yeelight-cozy-glow/previews/) |
+| 点点灯灵<br><sub>Yeelight Dot Lampy</sub> | <img src="qa/yeelight-dot-lampy/contact-sheet.png" alt="点点灯灵 静态预览" width="128"> | <img src="qa/yeelight-dot-lampy/previews/idle.gif" alt="点点灯灵 待机动图" width="80"> | 圆润极简的桌面灯灵，表情明亮，像一颗随叫随到的小光点。 | [安装包](packages/yeelight-dot-lampy/) · [全部动图](qa/yeelight-dot-lampy/previews/) |
+| 光环小机<br><sub>Yeelight Halo Bot</sub> | <img src="qa/yeelight-halo-bot/contact-sheet.png" alt="光环小机 静态预览" width="128"> | <img src="qa/yeelight-halo-bot/previews/idle.gif" alt="光环小机 待机动图" width="80"> | 带着青色光环和暖色灯泡伙伴，偏赛博、机敏、清爽。 | [安装包](packages/yeelight-halo-bot/) · [全部动图](qa/yeelight-halo-bot/previews/) |
+| 流明光伴<br><sub>Yeelight Lumi</sub> | <img src="qa/yeelight-lumi/contact-sheet.png" alt="流明光伴 静态预览" width="128"> | <img src="qa/yeelight-lumi/previews/idle.gif" alt="流明光伴 待机动图" width="80"> | 干净友好的智能灯光机器人，适合作为均衡的默认宠物。 | [安装包](packages/yeelight-lumi/) · [全部动图](qa/yeelight-lumi/previews/) |
+| 像素流明<br><sub>Yeelight Lumi Pixel</sub> | <img src="qa/yeelight-lumi-pixel/contact-sheet.png" alt="像素流明 静态预览" width="128"> | <img src="qa/yeelight-lumi-pixel/previews/idle.gif" alt="像素流明 待机动图" width="80"> | 复古像素风灯光机器人，轻快、怀旧、辨识度高。 | [安装包](packages/yeelight-lumi-pixel/) · [全部动图](qa/yeelight-lumi-pixel/previews/) |
 
-重新生成 catalog、demo 和 collection 文档：
+### Yeelight 家居灯光系列 · 12 只
 
-```bash
-python3 scripts/build_project.py
-```
+12 只来自常见家居灯光品类的 PET，覆盖吊灯、灯带、床头灯、台灯等场景。
 
-也可以使用 Makefile：
+| PET | 静态预览 | 待机动图 | 简介 | 入口 |
+| --- | --- | --- | --- | --- |
+| 餐星吊吊<br><sub>yeelight-canxingdiao</sub> | <img src="qa/yeelight-canxingdiao/contact-sheet.png" alt="餐星吊吊 静态预览" width="128"> | <img src="qa/yeelight-canxingdiao/previews/idle.gif" alt="餐星吊吊 待机动图" width="80"> | 智能吊灯 / Pendant Lamp。有礼貌、温暖，像晚餐时准时出现的小管家。 | [安装包](packages/yeelight-canxingdiao/) · [全部动图](qa/yeelight-canxingdiao/previews/) |
+| 方板晶晶<br><sub>yeelight-fangban</sub> | <img src="qa/yeelight-fangban/contact-sheet.png" alt="方板晶晶 静态预览" width="128"> | <img src="qa/yeelight-fangban/previews/idle.gif" alt="方板晶晶 待机动图" width="80"> | 智能面板灯 / Panel Light。干净利落，负责厨房和卫生间的清爽明亮。 | [安装包](packages/yeelight-fangban/) · [全部动图](qa/yeelight-fangban/previews/) |
+| 风羽扇扇<br><sub>yeelight-fengyu</sub> | <img src="qa/yeelight-fengyu/contact-sheet.png" alt="风羽扇扇 静态预览" width="128"> | <img src="qa/yeelight-fengyu/previews/idle.gif" alt="风羽扇扇 待机动图" width="80"> | 风扇灯 / Fan Light。清爽、轻快，但动作保持可控不眩晕。 | [安装包](packages/yeelight-fengyu/) · [全部动图](qa/yeelight-fengyu/previews/) |
+| 光板卡卡<br><sub>yeelight-guangban</sub> | <img src="qa/yeelight-guangban/contact-sheet.png" alt="光板卡卡 静态预览" width="128"> | <img src="qa/yeelight-guangban/previews/idle.gif" alt="光板卡卡 待机动图" width="80"> | 智能灯板 / Smart LED Light Panels。创意、节奏感强，但动画中不做漂浮光效。 | [安装包](packages/yeelight-guangban/) · [全部动图](qa/yeelight-guangban/previews/) |
+| 暖光豆豆<br><sub>yeelight-guangdoudou</sub> | <img src="qa/yeelight-guangdoudou/contact-sheet.png" alt="暖光豆豆 静态预览" width="128"> | <img src="qa/yeelight-guangdoudou/previews/idle.gif" alt="暖光豆豆 待机动图" width="80"> | 智能 LED 灯泡 W3 / Bulb。小巧机灵，负责把普通角落点亮。 | [安装包](packages/yeelight-guangdoudou/) · [全部动图](qa/yeelight-guangdoudou/previews/) |
+| 立光鹿鹿<br><sub>yeelight-liguanglu</sub> | <img src="qa/yeelight-liguanglu/contact-sheet.png" alt="立光鹿鹿 静态预览" width="128"> | <img src="qa/yeelight-liguanglu/previews/idle.gif" alt="立光鹿鹿 待机动图" width="80"> | 智能落地灯 / Floor Lamp。优雅、耐心、在沙发旁守候。 | [安装包](packages/yeelight-liguanglu/) · [全部动图](qa/yeelight-liguanglu/previews/) |
+| 流光带带<br><sub>yeelight-liuguangdai</sub> | <img src="qa/yeelight-liuguangdai/contact-sheet.png" alt="流光带带 静态预览" width="128"> | <img src="qa/yeelight-liuguangdai/previews/idle.gif" alt="流光带带 待机动图" width="80"> | LED 智能灯带 / Lightstrip Pro。活泼、会变换气氛、喜欢贴着家具边缘巡游。 | [安装包](packages/yeelight-liuguangdai/) · [全部动图](qa/yeelight-liuguangdai/previews/) |
+| 安眠暖枕<br><sub>yeelight-nuanzhen</sub> | <img src="qa/yeelight-nuanzhen/contact-sheet.png" alt="安眠暖枕 静态预览" width="128"> | <img src="qa/yeelight-nuanzhen/previews/idle.gif" alt="安眠暖枕 待机动图" width="80"> | 智能床头灯 / Staria Bedside Lamp。温柔、安静、哄睡。 | [安装包](packages/yeelight-nuanzhen/) · [全部动图](qa/yeelight-nuanzhen/previews/) |
+| 屏翼小屏<br><sub>yeelight-pingyi</sub> | <img src="qa/yeelight-pingyi/contact-sheet.png" alt="屏翼小屏 静态预览" width="128"> | <img src="qa/yeelight-pingyi/previews/idle.gif" alt="屏翼小屏 待机动图" width="80"> | 屏幕挂灯 / Monitor Light Bar Pro。敏捷、专注、适合程序员和游戏房。 | [安装包](packages/yeelight-pingyi/) · [全部动图](qa/yeelight-pingyi/previews/) |
+| 小青穹<br><sub>yeelight-qingqiong</sub> | <img src="qa/yeelight-qingqiong/contact-sheet.png" alt="小青穹 静态预览" width="128"> | <img src="qa/yeelight-qingqiong/previews/idle.gif" alt="小青穹 待机动图" width="80"> | 青空®灯 / P20 智能版青空灯。治愈、开阔、可靠，像把晴天带进室内的小守护者。 | [安装包](packages/yeelight-qingqiong/) · [全部动图](qa/yeelight-qingqiong/previews/) |
+| 云顶团团<br><sub>yeelight-yunding</sub> | <img src="qa/yeelight-yunding/contact-sheet.png" alt="云顶团团 静态预览" width="128"> | <img src="qa/yeelight-yunding/previews/idle.gif" alt="云顶团团 待机动图" width="80"> | 全光谱智能吸顶灯 / Ceiling Light。稳定、包容、会照顾全屋氛围。 | [安装包](packages/yeelight-yunding/) · [全部动图](qa/yeelight-yunding/previews/) |
+| 桌光璐璐<br><sub>yeelight-zhuoguang</sub> | <img src="qa/yeelight-zhuoguang/contact-sheet.png" alt="桌光璐璐 静态预览" width="128"> | <img src="qa/yeelight-zhuoguang/previews/idle.gif" alt="桌光璐璐 待机动图" width="80"> | 智能台灯 / Desk Lamp D2。专注、聪明，陪程序员写代码但不画代码。 | [安装包](packages/yeelight-zhuoguang/) · [全部动图](qa/yeelight-zhuoguang/previews/) |
 
-```bash
-make smoke
-```
+### Yeelight Pro 系列 · 65 只
 
-维护者本地如果保留了被忽略的 `resources/` 原始资料，脚本会从原始资料重新归一化输出；公开仓库克隆中没有 `resources/` 时，脚本会用已提交的 `catalog/`、`packages/` 和 `qa/` 重建 demo 与文档。
+65 只来自 Yeelight Pro 产品语义的 PET，覆盖开关、传感器、射灯、灯带、网关、面板等类型。
 
-验证公开发布面：
+| PET | 静态预览 | 待机动图 | 简介 | 入口 |
+| --- | --- | --- | --- | --- |
+| 灵光开关仔100<br><sub>yeelight-pro-100-smart-switch</sub> | <img src="qa/yeelight-pro-100-smart-switch/contact-sheet.png" alt="灵光开关仔100 静态预览" width="128"> | <img src="qa/yeelight-pro-100-smart-switch/previews/idle.gif" alt="灵光开关仔100 待机动图" width="80"> | E20智能开关-单零火版。简洁墙面开关变成会点头的小宠物。 | [安装包](packages/yeelight-pro-100-smart-switch/) · [全部动图](qa/yeelight-pro-100-smart-switch/previews/) |
+| 曜蓝控控103<br><sub>yeelight-pro-103-controller</sub> | <img src="qa/yeelight-pro-103-controller/contact-sheet.png" alt="曜蓝控控103 静态预览" width="128"> | <img src="qa/yeelight-pro-103-controller/previews/idle.gif" alt="曜蓝控控103 待机动图" width="80"> | S系列智能低压灯带DC控制器。控制器变成小芯片管家。 | [安装包](packages/yeelight-pro-103-controller/) · [全部动图](qa/yeelight-pro-103-controller/previews/) |
+| 灵光帘卷兽104<br><sub>yeelight-pro-104-curtain-motor</sub> | <img src="qa/yeelight-pro-104-curtain-motor/contact-sheet.png" alt="灵光帘卷兽104 静态预览" width="128"> | <img src="qa/yeelight-pro-104-curtain-motor/previews/idle.gif" alt="灵光帘卷兽104 待机动图" width="80"> | E系列智能卷帘电机。窗帘电机和帘布变成会卷起布翼的兽。 | [安装包](packages/yeelight-pro-104-curtain-motor/) · [全部动图](qa/yeelight-pro-104-curtain-motor/previews/) |
+| 曜蓝流带龙105<br><sub>yeelight-pro-105-lightstrip</sub> | <img src="qa/yeelight-pro-105-lightstrip/contact-sheet.png" alt="曜蓝流带龙105 静态预览" width="128"> | <img src="qa/yeelight-pro-105-lightstrip/previews/idle.gif" alt="曜蓝流带龙105 待机动图" width="80"> | S系列低压RGBCW灯带。灯带变成柔软的流光龙。 | [安装包](packages/yeelight-pro-105-lightstrip/) · [全部动图](qa/yeelight-pro-105-lightstrip/previews/) |
+| 曜蓝流带龙106<br><sub>yeelight-pro-106-lightstrip</sub> | <img src="qa/yeelight-pro-106-lightstrip/contact-sheet.png" alt="曜蓝流带龙106 静态预览" width="128"> | <img src="qa/yeelight-pro-106-lightstrip/previews/idle.gif" alt="曜蓝流带龙106 待机动图" width="80"> | S系列低压双色温COB灯带。灯带变成柔软的流光龙。 | [安装包](packages/yeelight-pro-106-lightstrip/) · [全部动图](qa/yeelight-pro-106-lightstrip/previews/) |
+| 曜蓝流带龙107<br><sub>yeelight-pro-107-lightstrip</sub> | <img src="qa/yeelight-pro-107-lightstrip/contact-sheet.png" alt="曜蓝流带龙107 静态预览" width="128"> | <img src="qa/yeelight-pro-107-lightstrip/previews/idle.gif" alt="曜蓝流带龙107 待机动图" width="80"> | S系列低压双色温灯带。灯带变成柔软的流光龙。 | [安装包](packages/yeelight-pro-107-lightstrip/) · [全部动图](qa/yeelight-pro-107-lightstrip/previews/) |
+| 灵光帘卷兽108<br><sub>yeelight-pro-108-curtain-motor</sub> | <img src="qa/yeelight-pro-108-curtain-motor/contact-sheet.png" alt="灵光帘卷兽108 静态预览" width="128"> | <img src="qa/yeelight-pro-108-curtain-motor/previews/idle.gif" alt="灵光帘卷兽108 待机动图" width="80"> | E系列智能开合帘电机。窗帘电机和帘布变成会卷起布翼的兽。 | [安装包](packages/yeelight-pro-108-curtain-motor/) · [全部动图](qa/yeelight-pro-108-curtain-motor/previews/) |
+| 灵光流带龙109<br><sub>yeelight-pro-109-lightstrip</sub> | <img src="qa/yeelight-pro-109-lightstrip/contact-sheet.png" alt="灵光流带龙109 静态预览" width="128"> | <img src="qa/yeelight-pro-109-lightstrip/previews/idle.gif" alt="灵光流带龙109 待机动图" width="80"> | E系列低压单色温灯带。灯带变成柔软的流光龙。 | [安装包](packages/yeelight-pro-109-lightstrip/) · [全部动图](qa/yeelight-pro-109-lightstrip/previews/) |
+| 曜蓝感知猫110<br><sub>yeelight-pro-110-sensor</sub> | <img src="qa/yeelight-pro-110-sensor/contact-sheet.png" alt="曜蓝感知猫110 静态预览" width="128"> | <img src="qa/yeelight-pro-110-sensor/previews/idle.gif" alt="曜蓝感知猫110 待机动图" width="80"> | S系列人在传感器。传感器变成圆圆的雷达猫。 | [安装包](packages/yeelight-pro-110-sensor/) · [全部动图](qa/yeelight-pro-110-sensor/previews/) |
+| 岚晶开关仔112<br><sub>yeelight-pro-112-smart-switch</sub> | <img src="qa/yeelight-pro-112-smart-switch/contact-sheet.png" alt="岚晶开关仔112 静态预览" width="128"> | <img src="qa/yeelight-pro-112-smart-switch/previews/idle.gif" alt="岚晶开关仔112 待机动图" width="80"> | D系列智能开关-单零火版。简洁墙面开关变成会点头的小宠物。 | [安装包](packages/yeelight-pro-112-smart-switch/) · [全部动图](qa/yeelight-pro-112-smart-switch/previews/) |
+| 曜蓝栅瞳113<br><sub>yeelight-pro-113-grille-light</sub> | <img src="qa/yeelight-pro-113-grille-light/contact-sheet.png" alt="曜蓝栅瞳113 静态预览" width="128"> | <img src="qa/yeelight-pro-113-grille-light/previews/idle.gif" alt="曜蓝栅瞳113 待机动图" width="80"> | S系列嵌入式格栅灯。多孔格栅灯变成多眼阵列小宠物。 | [安装包](packages/yeelight-pro-113-grille-light/) · [全部动图](qa/yeelight-pro-113-grille-light/previews/) |
+| 曜蓝控控114<br><sub>yeelight-pro-114-controller</sub> | <img src="qa/yeelight-pro-114-controller/contact-sheet.png" alt="曜蓝控控114 静态预览" width="128"> | <img src="qa/yeelight-pro-114-controller/previews/idle.gif" alt="曜蓝控控114 待机动图" width="80"> | S系列双路控制器。控制器变成小芯片管家。 | [安装包](packages/yeelight-pro-114-controller/) · [全部动图](qa/yeelight-pro-114-controller/previews/) |
+| 岚晶光瞳115<br><sub>yeelight-pro-115-spotlight</sub> | <img src="qa/yeelight-pro-115-spotlight/contact-sheet.png" alt="岚晶光瞳115 静态预览" width="128"> | <img src="qa/yeelight-pro-115-spotlight/previews/idle.gif" alt="岚晶光瞳115 待机动图" width="80"> | D系列嵌入式射灯PLUS版。筒射灯/射灯镜头变成大眼光瞳。 | [安装包](packages/yeelight-pro-115-spotlight/) · [全部动图](qa/yeelight-pro-115-spotlight/previews/) |
+| 灵光流带龙116<br><sub>yeelight-pro-116-lightstrip</sub> | <img src="qa/yeelight-pro-116-lightstrip/contact-sheet.png" alt="灵光流带龙116 静态预览" width="128"> | <img src="qa/yeelight-pro-116-lightstrip/previews/idle.gif" alt="灵光流带龙116 待机动图" width="80"> | E系列高亮低压双色温灯带。灯带变成柔软的流光龙。 | [安装包](packages/yeelight-pro-116-lightstrip/) · [全部动图](qa/yeelight-pro-116-lightstrip/previews/) |
+| 曜蓝屏灵117<br><sub>yeelight-pro-117-screen-panel</sub> | <img src="qa/yeelight-pro-117-screen-panel/contact-sheet.png" alt="曜蓝屏灵117 静态预览" width="128"> | <img src="qa/yeelight-pro-117-screen-panel/previews/idle.gif" alt="曜蓝屏灵117 待机动图" width="80"> | S系列AI智慧屏。大屏、触控、全屋交互的黑镜面小机器人。 | [安装包](packages/yeelight-pro-117-screen-panel/) · [全部动图](qa/yeelight-pro-117-screen-panel/previews/) |
+| 灵光光瞳118<br><sub>yeelight-pro-118-spotlight</sub> | <img src="qa/yeelight-pro-118-spotlight/contact-sheet.png" alt="灵光光瞳118 静态预览" width="128"> | <img src="qa/yeelight-pro-118-spotlight/previews/idle.gif" alt="灵光光瞳118 待机动图" width="80"> | E3系列嵌入式筒射灯。筒射灯/射灯镜头变成大眼光瞳。 | [安装包](packages/yeelight-pro-118-spotlight/) · [全部动图](qa/yeelight-pro-118-spotlight/previews/) |
+| 曜蓝光瞳119<br><sub>yeelight-pro-119-spotlight</sub> | <img src="qa/yeelight-pro-119-spotlight/contact-sheet.png" alt="曜蓝光瞳119 静态预览" width="128"> | <img src="qa/yeelight-pro-119-spotlight/previews/idle.gif" alt="曜蓝光瞳119 待机动图" width="80"> | S2系列嵌入式筒射灯。筒射灯/射灯镜头变成大眼光瞳。 | [安装包](packages/yeelight-pro-119-spotlight/) · [全部动图](qa/yeelight-pro-119-spotlight/previews/) |
+| 曜蓝星顶团120<br><sub>yeelight-pro-120-ceiling-light</sub> | <img src="qa/yeelight-pro-120-ceiling-light/contact-sheet.png" alt="曜蓝星顶团120 静态预览" width="128"> | <img src="qa/yeelight-pro-120-ceiling-light/previews/idle.gif" alt="曜蓝星顶团120 待机动图" width="80"> | S系列护眼吸顶灯。吸顶灯变成星空顶上的软云团。 | [安装包](packages/yeelight-pro-120-ceiling-light/) · [全部动图](qa/yeelight-pro-120-ceiling-light/previews/) |
+| 灵光开关仔121<br><sub>yeelight-pro-121-smart-switch</sub> | <img src="qa/yeelight-pro-121-smart-switch/contact-sheet.png" alt="灵光开关仔121 静态预览" width="128"> | <img src="qa/yeelight-pro-121-smart-switch/previews/idle.gif" alt="灵光开关仔121 待机动图" width="80"> | E系列智能开关。简洁墙面开关变成会点头的小宠物。 | [安装包](packages/yeelight-pro-121-smart-switch/) · [全部动图](qa/yeelight-pro-121-smart-switch/previews/) |
+| 灵光光瞳122<br><sub>yeelight-pro-122-spotlight</sub> | <img src="qa/yeelight-pro-122-spotlight/contact-sheet.png" alt="灵光光瞳122 静态预览" width="128"> | <img src="qa/yeelight-pro-122-spotlight/previews/idle.gif" alt="灵光光瞳122 待机动图" width="80"> | E2嵌入式筒射灯。筒射灯/射灯镜头变成大眼光瞳。 | [安装包](packages/yeelight-pro-122-spotlight/) · [全部动图](qa/yeelight-pro-122-spotlight/previews/) |
+| 灵光轨座兽123<br><sub>yeelight-pro-123-track-socket</sub> | <img src="qa/yeelight-pro-123-track-socket/contact-sheet.png" alt="灵光轨座兽123 静态预览" width="128"> | <img src="qa/yeelight-pro-123-track-socket/previews/idle.gif" alt="灵光轨座兽123 待机动图" width="80"> | E系列智能轨道插座。轨道插座变成带屏幕和插座肚子的轨座兽。 | [安装包](packages/yeelight-pro-123-track-socket/) · [全部动图](qa/yeelight-pro-123-track-socket/previews/) |
+| 曜蓝中枢鲸124<br><sub>yeelight-pro-124-gateway</sub> | <img src="qa/yeelight-pro-124-gateway/contact-sheet.png" alt="曜蓝中枢鲸124 静态预览" width="128"> | <img src="qa/yeelight-pro-124-gateway/previews/idle.gif" alt="曜蓝中枢鲸124 待机动图" width="80"> | S系列智能家居中枢网关。网关与中枢变成稳重的网络鲸。 | [安装包](packages/yeelight-pro-124-gateway/) · [全部动图](qa/yeelight-pro-124-gateway/previews/) |
+| 岚晶磁轨龙125<br><sub>yeelight-pro-125-magnetic-track-light</sub> | <img src="qa/yeelight-pro-125-magnetic-track-light/contact-sheet.png" alt="岚晶磁轨龙125 静态预览" width="128"> | <img src="qa/yeelight-pro-125-magnetic-track-light/previews/idle.gif" alt="岚晶磁轨龙125 待机动图" width="80"> | D系列色温磁吸灯。磁吸轨道与模组组合成细长龙形灯宠。 | [安装包](packages/yeelight-pro-125-magnetic-track-light/) · [全部动图](qa/yeelight-pro-125-magnetic-track-light/previews/) |
+| 鎏艺艺面灵129<br><sub>yeelight-pro-129-art-panel</sub> | <img src="qa/yeelight-pro-129-art-panel/contact-sheet.png" alt="鎏艺艺面灵129 静态预览" width="128"> | <img src="qa/yeelight-pro-129-art-panel/previews/idle.gif" alt="鎏艺艺面灵129 待机动图" width="80"> | Yeelight Pro ART 开关面板 经典系列。把工艺纹理转译成可爱的面板精灵。 | [安装包](packages/yeelight-pro-129-art-panel/) · [全部动图](qa/yeelight-pro-129-art-panel/previews/) |
+| 曜蓝光瞳13<br><sub>yeelight-pro-13-spotlight</sub> | <img src="qa/yeelight-pro-13-spotlight/contact-sheet.png" alt="曜蓝光瞳13 静态预览" width="128"> | <img src="qa/yeelight-pro-13-spotlight/previews/idle.gif" alt="曜蓝光瞳13 待机动图" width="80"> | S21 明装斗胆灯。筒射灯/射灯镜头变成大眼光瞳。 | [安装包](packages/yeelight-pro-13-spotlight/) · [全部动图](qa/yeelight-pro-13-spotlight/previews/) |
+| 鎏艺艺面灵130<br><sub>yeelight-pro-130-art-panel</sub> | <img src="qa/yeelight-pro-130-art-panel/contact-sheet.png" alt="鎏艺艺面灵130 静态预览" width="128"> | <img src="qa/yeelight-pro-130-art-panel/previews/idle.gif" alt="鎏艺艺面灵130 待机动图" width="80"> | Yeelight Pro ART 开关面板 非遗系列。把工艺纹理转译成可爱的面板精灵。 | [安装包](packages/yeelight-pro-130-art-panel/) · [全部动图](qa/yeelight-pro-130-art-panel/previews/) |
+| 鎏艺艺面灵131<br><sub>yeelight-pro-131-art-panel</sub> | <img src="qa/yeelight-pro-131-art-panel/contact-sheet.png" alt="鎏艺艺面灵131 静态预览" width="128"> | <img src="qa/yeelight-pro-131-art-panel/previews/idle.gif" alt="鎏艺艺面灵131 待机动图" width="80"> | Yeelight Pro ART 开关面板 晶钻系列。把工艺纹理转译成可爱的面板精灵。 | [安装包](packages/yeelight-pro-131-art-panel/) · [全部动图](qa/yeelight-pro-131-art-panel/previews/) |
+| 鎏艺艺面灵132<br><sub>yeelight-pro-132-art-panel</sub> | <img src="qa/yeelight-pro-132-art-panel/contact-sheet.png" alt="鎏艺艺面灵132 静态预览" width="128"> | <img src="qa/yeelight-pro-132-art-panel/previews/idle.gif" alt="鎏艺艺面灵132 待机动图" width="80"> | Yeelight Pro ART 开关面板 涟漪系列。把工艺纹理转译成可爱的面板精灵。 | [安装包](packages/yeelight-pro-132-art-panel/) · [全部动图](qa/yeelight-pro-132-art-panel/previews/) |
+| 曜蓝光瞳133<br><sub>yeelight-pro-133-spotlight</sub> | <img src="qa/yeelight-pro-133-spotlight/contact-sheet.png" alt="曜蓝光瞳133 静态预览" width="128"> | <img src="qa/yeelight-pro-133-spotlight/previews/idle.gif" alt="曜蓝光瞳133 待机动图" width="80"> | S系列嵌入式筒射灯。筒射灯/射灯镜头变成大眼光瞳。 | [安装包](packages/yeelight-pro-133-spotlight/) · [全部动图](qa/yeelight-pro-133-spotlight/previews/) |
+| 岚晶屏灵134<br><sub>yeelight-pro-134-screen-panel</sub> | <img src="qa/yeelight-pro-134-screen-panel/contact-sheet.png" alt="岚晶屏灵134 静态预览" width="128"> | <img src="qa/yeelight-pro-134-screen-panel/previews/idle.gif" alt="岚晶屏灵134 待机动图" width="80"> | YLP D系列全面屏。大屏、触控、全屋交互的黑镜面小机器人。 | [安装包](packages/yeelight-pro-134-screen-panel/) · [全部动图](qa/yeelight-pro-134-screen-panel/previews/) |
+| 曜蓝中枢鲸14<br><sub>yeelight-pro-14-gateway</sub> | <img src="qa/yeelight-pro-14-gateway/contact-sheet.png" alt="曜蓝中枢鲸14 静态预览" width="128"> | <img src="qa/yeelight-pro-14-gateway/previews/idle.gif" alt="曜蓝中枢鲸14 待机动图" width="80"> | S20 蓝牙Mesh网关。网关与中枢变成稳重的网络鲸。 | [安装包](packages/yeelight-pro-14-gateway/) · [全部动图](qa/yeelight-pro-14-gateway/previews/) |
+| 曜蓝流带龙19<br><sub>yeelight-pro-19-lightstrip</sub> | <img src="qa/yeelight-pro-19-lightstrip/contact-sheet.png" alt="曜蓝流带龙19 静态预览" width="128"> | <img src="qa/yeelight-pro-19-lightstrip/previews/idle.gif" alt="曜蓝流带龙19 待机动图" width="80"> | S20 高压灯带。灯带变成柔软的流光龙。 | [安装包](packages/yeelight-pro-19-lightstrip/) · [全部动图](qa/yeelight-pro-19-lightstrip/previews/) |
+| 米萤旋旋21<br><sub>yeelight-pro-21-knob-switch</sub> | <img src="qa/yeelight-pro-21-knob-switch/contact-sheet.png" alt="米萤旋旋21 静态预览" width="128"> | <img src="qa/yeelight-pro-21-knob-switch/previews/idle.gif" alt="米萤旋旋21 待机动图" width="80"> | M20 旋钮开关。旋钮结构变成圆盘脸和机械小耳朵。 | [安装包](packages/yeelight-pro-21-knob-switch/) · [全部动图](qa/yeelight-pro-21-knob-switch/previews/) |
+| 米萤光豆豆24<br><sub>yeelight-pro-24-bulb</sub> | <img src="qa/yeelight-pro-24-bulb/contact-sheet.png" alt="米萤光豆豆24 静态预览" width="128"> | <img src="qa/yeelight-pro-24-bulb/previews/idle.gif" alt="米萤光豆豆24 待机动图" width="80"> | M20 T43色温灯泡。灯泡变成发亮的豆豆。 | [安装包](packages/yeelight-pro-24-bulb/) · [全部动图](qa/yeelight-pro-24-bulb/previews/) |
+| 星穹磁轨龙35<br><sub>yeelight-pro-35-magnetic-track-light</sub> | <img src="qa/yeelight-pro-35-magnetic-track-light/contact-sheet.png" alt="星穹磁轨龙35 静态预览" width="128"> | <img src="qa/yeelight-pro-35-magnetic-track-light/previews/idle.gif" alt="星穹磁轨龙35 待机动图" width="80"> | P20 明装磁吸轨道灯。磁吸轨道与模组组合成细长龙形灯宠。 | [安装包](packages/yeelight-pro-35-magnetic-track-light/) · [全部动图](qa/yeelight-pro-35-magnetic-track-light/previews/) |
+| 星穹感知猫38<br><sub>yeelight-pro-38-sensor</sub> | <img src="qa/yeelight-pro-38-sensor/contact-sheet.png" alt="星穹感知猫38 静态预览" width="128"> | <img src="qa/yeelight-pro-38-sensor/previews/idle.gif" alt="星穹感知猫38 待机动图" width="80"> | P20 人在传感器。传感器变成圆圆的雷达猫。 | [安装包](packages/yeelight-pro-38-sensor/) · [全部动图](qa/yeelight-pro-38-sensor/previews/) |
+| 曜蓝温控狐39<br><sub>yeelight-pro-39-thermostat</sub> | <img src="qa/yeelight-pro-39-thermostat/contact-sheet.png" alt="曜蓝温控狐39 静态预览" width="128"> | <img src="qa/yeelight-pro-39-thermostat/previews/idle.gif" alt="曜蓝温控狐39 待机动图" width="80"> | S系列 VRF中央空调温控器。温控器变成带风口脸的小狐狸。 | [安装包](packages/yeelight-pro-39-thermostat/) · [全部动图](qa/yeelight-pro-39-thermostat/previews/) |
+| 曜蓝感知猫44<br><sub>yeelight-pro-44-sensor</sub> | <img src="qa/yeelight-pro-44-sensor/contact-sheet.png" alt="曜蓝感知猫44 静态预览" width="128"> | <img src="qa/yeelight-pro-44-sensor/previews/idle.gif" alt="曜蓝感知猫44 待机动图" width="80"> | S21 人体红外传感器。传感器变成圆圆的雷达猫。 | [安装包](packages/yeelight-pro-44-sensor/) · [全部动图](qa/yeelight-pro-44-sensor/previews/) |
+| 灵光光豆豆47<br><sub>yeelight-pro-47-bulb</sub> | <img src="qa/yeelight-pro-47-bulb/contact-sheet.png" alt="灵光光豆豆47 静态预览" width="128"> | <img src="qa/yeelight-pro-47-bulb/previews/idle.gif" alt="灵光光豆豆47 待机动图" width="80"> | E20 智能灯泡。灯泡变成发亮的豆豆。 | [安装包](packages/yeelight-pro-47-bulb/) · [全部动图](qa/yeelight-pro-47-bulb/previews/) |
+| 灵光磁轨龙49<br><sub>yeelight-pro-49-magnetic-track-light</sub> | <img src="qa/yeelight-pro-49-magnetic-track-light/contact-sheet.png" alt="灵光磁轨龙49 静态预览" width="128"> | <img src="qa/yeelight-pro-49-magnetic-track-light/previews/idle.gif" alt="灵光磁轨龙49 待机动图" width="80"> | E系列嵌入式磁吸轨道灯。磁吸轨道与模组组合成细长龙形灯宠。 | [安装包](packages/yeelight-pro-49-magnetic-track-light/) · [全部动图](qa/yeelight-pro-49-magnetic-track-light/previews/) |
+| 灵光开关仔54<br><sub>yeelight-pro-54-smart-switch</sub> | <img src="qa/yeelight-pro-54-smart-switch/contact-sheet.png" alt="灵光开关仔54 静态预览" width="128"> | <img src="qa/yeelight-pro-54-smart-switch/previews/idle.gif" alt="灵光开关仔54 待机动图" width="80"> | E20 智能开关。简洁墙面开关变成会点头的小宠物。 | [安装包](packages/yeelight-pro-54-smart-switch/) · [全部动图](qa/yeelight-pro-54-smart-switch/previews/) |
+| 灵光轨座兽63<br><sub>yeelight-pro-63-track-socket</sub> | <img src="qa/yeelight-pro-63-track-socket/contact-sheet.png" alt="灵光轨座兽63 静态预览" width="128"> | <img src="qa/yeelight-pro-63-track-socket/previews/idle.gif" alt="灵光轨座兽63 待机动图" width="80"> | H 系列开关插座。轨道插座变成带屏幕和插座肚子的轨座兽。 | [安装包](packages/yeelight-pro-63-track-socket/) · [全部动图](qa/yeelight-pro-63-track-socket/previews/) |
+| 灵光场景团65<br><sub>yeelight-pro-65-scene-panel</sub> | <img src="qa/yeelight-pro-65-scene-panel/contact-sheet.png" alt="灵光场景团65 静态预览" width="128"> | <img src="qa/yeelight-pro-65-scene-panel/previews/idle.gif" alt="灵光场景团65 待机动图" width="80"> | E20 六键情景面板。多按键/情景组合的墙面小管家。 | [安装包](packages/yeelight-pro-65-scene-panel/) · [全部动图](qa/yeelight-pro-65-scene-panel/previews/) |
+| 星穹青空鲸66<br><sub>yeelight-pro-66-qingkong-skylight</sub> | <img src="qa/yeelight-pro-66-qingkong-skylight/contact-sheet.png" alt="星穹青空鲸66 静态预览" width="128"> | <img src="qa/yeelight-pro-66-qingkong-skylight/previews/idle.gif" alt="星穹青空鲸66 待机动图" width="80"> | 青空灯。青空灯变成小天窗鲸，腹部是一片蓝天。 | [安装包](packages/yeelight-pro-66-qingkong-skylight/) · [全部动图](qa/yeelight-pro-66-qingkong-skylight/previews/) |
+| 星穹屏灵67<br><sub>yeelight-pro-67-screen-panel</sub> | <img src="qa/yeelight-pro-67-screen-panel/contact-sheet.png" alt="星穹屏灵67 静态预览" width="128"> | <img src="qa/yeelight-pro-67-screen-panel/previews/idle.gif" alt="星穹屏灵67 待机动图" width="80"> | P20 全景屏面板。大屏、触控、全屋交互的黑镜面小机器人。 | [安装包](packages/yeelight-pro-67-screen-panel/) · [全部动图](qa/yeelight-pro-67-screen-panel/previews/) |
+| 曜蓝屏灵70<br><sub>yeelight-pro-70-screen-panel</sub> | <img src="qa/yeelight-pro-70-screen-panel/contact-sheet.png" alt="曜蓝屏灵70 静态预览" width="128"> | <img src="qa/yeelight-pro-70-screen-panel/previews/idle.gif" alt="曜蓝屏灵70 待机动图" width="80"> | S21 全面屏开关 (Mesh版)。大屏、触控、全屋交互的黑镜面小机器人。 | [安装包](packages/yeelight-pro-70-screen-panel/) · [全部动图](qa/yeelight-pro-70-screen-panel/previews/) |
+| 曜蓝帘卷兽71<br><sub>yeelight-pro-71-curtain-motor</sub> | <img src="qa/yeelight-pro-71-curtain-motor/contact-sheet.png" alt="曜蓝帘卷兽71 静态预览" width="128"> | <img src="qa/yeelight-pro-71-curtain-motor/previews/idle.gif" alt="曜蓝帘卷兽71 待机动图" width="80"> | S21 窗帘电机。窗帘电机和帘布变成会卷起布翼的兽。 | [安装包](packages/yeelight-pro-71-curtain-motor/) · [全部动图](qa/yeelight-pro-71-curtain-motor/previews/) |
+| 灵光光瞳77<br><sub>yeelight-pro-77-spotlight</sub> | <img src="qa/yeelight-pro-77-spotlight/contact-sheet.png" alt="灵光光瞳77 静态预览" width="128"> | <img src="qa/yeelight-pro-77-spotlight/previews/idle.gif" alt="灵光光瞳77 待机动图" width="80"> | E系列嵌入式射灯。筒射灯/射灯镜头变成大眼光瞳。 | [安装包](packages/yeelight-pro-77-spotlight/) · [全部动图](qa/yeelight-pro-77-spotlight/previews/) |
+| 米萤地脚萤78<br><sub>yeelight-pro-78-footlight</sub> | <img src="qa/yeelight-pro-78-footlight/contact-sheet.png" alt="米萤地脚萤78 静态预览" width="128"> | <img src="qa/yeelight-pro-78-footlight/previews/idle.gif" alt="米萤地脚萤78 待机动图" width="80"> | H系列人体感应地脚灯。地脚灯变成贴墙的小萤火虫。 | [安装包](packages/yeelight-pro-78-footlight/) · [全部动图](qa/yeelight-pro-78-footlight/previews/) |
+| 灵光栅瞳79<br><sub>yeelight-pro-79-grille-light</sub> | <img src="qa/yeelight-pro-79-grille-light/contact-sheet.png" alt="灵光栅瞳79 静态预览" width="128"> | <img src="qa/yeelight-pro-79-grille-light/previews/idle.gif" alt="灵光栅瞳79 待机动图" width="80"> | E系列嵌入式格栅灯。多孔格栅灯变成多眼阵列小宠物。 | [安装包](packages/yeelight-pro-79-grille-light/) · [全部动图](qa/yeelight-pro-79-grille-light/previews/) |
+| 岚晶光瞳80<br><sub>yeelight-pro-80-spotlight</sub> | <img src="qa/yeelight-pro-80-spotlight/contact-sheet.png" alt="岚晶光瞳80 静态预览" width="128"> | <img src="qa/yeelight-pro-80-spotlight/previews/idle.gif" alt="岚晶光瞳80 待机动图" width="80"> | D系列嵌入式筒射灯。筒射灯/射灯镜头变成大眼光瞳。 | [安装包](packages/yeelight-pro-80-spotlight/) · [全部动图](qa/yeelight-pro-80-spotlight/previews/) |
+| 曜蓝帘卷兽81<br><sub>yeelight-pro-81-curtain-motor</sub> | <img src="qa/yeelight-pro-81-curtain-motor/contact-sheet.png" alt="曜蓝帘卷兽81 静态预览" width="128"> | <img src="qa/yeelight-pro-81-curtain-motor/previews/idle.gif" alt="曜蓝帘卷兽81 待机动图" width="80"> | S系列梦幻帘窗帘电机。窗帘电机和帘布变成会卷起布翼的兽。 | [安装包](packages/yeelight-pro-81-curtain-motor/) · [全部动图](qa/yeelight-pro-81-curtain-motor/previews/) |
+| 灵光光瞳83<br><sub>yeelight-pro-83-spotlight</sub> | <img src="qa/yeelight-pro-83-spotlight/contact-sheet.png" alt="灵光光瞳83 静态预览" width="128"> | <img src="qa/yeelight-pro-83-spotlight/previews/idle.gif" alt="灵光光瞳83 待机动图" width="80"> | E系列嵌入式射灯-超薄款。筒射灯/射灯镜头变成大眼光瞳。 | [安装包](packages/yeelight-pro-83-spotlight/) · [全部动图](qa/yeelight-pro-83-spotlight/previews/) |
+| 灵光旋旋86<br><sub>yeelight-pro-86-knob-switch</sub> | <img src="qa/yeelight-pro-86-knob-switch/contact-sheet.png" alt="灵光旋旋86 静态预览" width="128"> | <img src="qa/yeelight-pro-86-knob-switch/previews/idle.gif" alt="灵光旋旋86 待机动图" width="80"> | E系列旋钮开关。旋钮结构变成圆盘脸和机械小耳朵。 | [安装包](packages/yeelight-pro-86-knob-switch/) · [全部动图](qa/yeelight-pro-86-knob-switch/previews/) |
+| 灵光流带龙88<br><sub>yeelight-pro-88-lightstrip</sub> | <img src="qa/yeelight-pro-88-lightstrip/contact-sheet.png" alt="灵光流带龙88 静态预览" width="128"> | <img src="qa/yeelight-pro-88-lightstrip/previews/idle.gif" alt="灵光流带龙88 待机动图" width="80"> | E系列低压双色温灯带。灯带变成柔软的流光龙。 | [安装包](packages/yeelight-pro-88-lightstrip/) · [全部动图](qa/yeelight-pro-88-lightstrip/previews/) |
+| 灵光光瞳89<br><sub>yeelight-pro-89-spotlight</sub> | <img src="qa/yeelight-pro-89-spotlight/contact-sheet.png" alt="灵光光瞳89 静态预览" width="128"> | <img src="qa/yeelight-pro-89-spotlight/previews/idle.gif" alt="灵光光瞳89 待机动图" width="80"> | E系列明装筒射灯。筒射灯/射灯镜头变成大眼光瞳。 | [安装包](packages/yeelight-pro-89-spotlight/) · [全部动图](qa/yeelight-pro-89-spotlight/previews/) |
+| 灵光光瞳90<br><sub>yeelight-pro-90-spotlight</sub> | <img src="qa/yeelight-pro-90-spotlight/contact-sheet.png" alt="灵光光瞳90 静态预览" width="128"> | <img src="qa/yeelight-pro-90-spotlight/previews/idle.gif" alt="灵光光瞳90 待机动图" width="80"> | E+系列嵌入式射灯。筒射灯/射灯镜头变成大眼光瞳。 | [安装包](packages/yeelight-pro-90-spotlight/) · [全部动图](qa/yeelight-pro-90-spotlight/previews/) |
+| 曜蓝场景团92<br><sub>yeelight-pro-92-scene-panel</sub> | <img src="qa/yeelight-pro-92-scene-panel/contact-sheet.png" alt="曜蓝场景团92 静态预览" width="128"> | <img src="qa/yeelight-pro-92-scene-panel/previews/idle.gif" alt="曜蓝场景团92 待机动图" width="80"> | S系列墙面情景面板开关。多按键/情景组合的墙面小管家。 | [安装包](packages/yeelight-pro-92-scene-panel/) · [全部动图](qa/yeelight-pro-92-scene-panel/previews/) |
+| 曜蓝旋旋93<br><sub>yeelight-pro-93-knob-switch</sub> | <img src="qa/yeelight-pro-93-knob-switch/contact-sheet.png" alt="曜蓝旋旋93 静态预览" width="128"> | <img src="qa/yeelight-pro-93-knob-switch/previews/idle.gif" alt="曜蓝旋旋93 待机动图" width="80"> | S系列墙面旋钮开关。旋钮结构变成圆盘脸和机械小耳朵。 | [安装包](packages/yeelight-pro-93-knob-switch/) · [全部动图](qa/yeelight-pro-93-knob-switch/previews/) |
+| 曜蓝门窗豆94<br><sub>yeelight-pro-94-door-window-sensor</sub> | <img src="qa/yeelight-pro-94-door-window-sensor/contact-sheet.png" alt="曜蓝门窗豆94 静态预览" width="128"> | <img src="qa/yeelight-pro-94-door-window-sensor/previews/idle.gif" alt="曜蓝门窗豆94 待机动图" width="80"> | S20 门窗传感器。门窗传感器变成一对并肩的小豆。 | [安装包](packages/yeelight-pro-94-door-window-sensor/) · [全部动图](qa/yeelight-pro-94-door-window-sensor/previews/) |
+| 灵光浴暖鲸95<br><sub>yeelight-pro-95-bath-heater</sub> | <img src="qa/yeelight-pro-95-bath-heater/contact-sheet.png" alt="灵光浴暖鲸95 静态预览" width="128"> | <img src="qa/yeelight-pro-95-bath-heater/previews/idle.gif" alt="灵光浴暖鲸95 待机动图" width="80"> | E系列智能浴霸。浴霸变成暖风与净浴双面小鲸。 | [安装包](packages/yeelight-pro-95-bath-heater/) · [全部动图](qa/yeelight-pro-95-bath-heater/previews/) |
+| 曜蓝中枢鲸96<br><sub>yeelight-pro-96-gateway</sub> | <img src="qa/yeelight-pro-96-gateway/contact-sheet.png" alt="曜蓝中枢鲸96 静态预览" width="128"> | <img src="qa/yeelight-pro-96-gateway/previews/idle.gif" alt="曜蓝中枢鲸96 待机动图" width="80"> | S20蓝牙网关（增强版）。网关与中枢变成稳重的网络鲸。 | [安装包](packages/yeelight-pro-96-gateway/) · [全部动图](qa/yeelight-pro-96-gateway/previews/) |
+| 曜蓝温控狐97<br><sub>yeelight-pro-97-thermostat</sub> | <img src="qa/yeelight-pro-97-thermostat/contact-sheet.png" alt="曜蓝温控狐97 静态预览" width="128"> | <img src="qa/yeelight-pro-97-thermostat/previews/idle.gif" alt="曜蓝温控狐97 待机动图" width="80"> | S系列风管机温控器。温控器变成带风口脸的小狐狸。 | [安装包](packages/yeelight-pro-97-thermostat/) · [全部动图](qa/yeelight-pro-97-thermostat/previews/) |
+| 曜蓝驱动龟98<br><sub>yeelight-pro-98-driver</sub> | <img src="qa/yeelight-pro-98-driver/contact-sheet.png" alt="曜蓝驱动龟98 静态预览" width="128"> | <img src="qa/yeelight-pro-98-driver/previews/idle.gif" alt="曜蓝驱动龟98 待机动图" width="80"> | S系列低压驱动。低压驱动变成背着散热鳍片的龟。 | [安装包](packages/yeelight-pro-98-driver/) · [全部动图](qa/yeelight-pro-98-driver/previews/) |
+| 岚晶开关仔99<br><sub>yeelight-pro-99-smart-switch</sub> | <img src="qa/yeelight-pro-99-smart-switch/contact-sheet.png" alt="岚晶开关仔99 静态预览" width="128"> | <img src="qa/yeelight-pro-99-smart-switch/previews/idle.gif" alt="岚晶开关仔99 待机动图" width="80"> | D系列智能开关。简洁墙面开关变成会点头的小宠物。 | [安装包](packages/yeelight-pro-99-smart-switch/) · [全部动图](qa/yeelight-pro-99-smart-switch/previews/) |
 
-```bash
-python3 scripts/validate_project.py
-```
+## 资源入口
 
-## 开源与商标说明
+- [demo/index.html](demo/index.html)：完整浏览页，适合预览和筛选。
+- [packages/](packages/)：每只 PET 的安装包。
+- [qa/](qa/)：每只 PET 的预览图、状态动图和更多预览资料。
+- [collections/](collections/)：按系列查看简表。
 
-本仓库提交的是整理后的公开资料；维护过程中的原始 batch/source 资料位于本地 `resources/`，已被 `.gitignore` 排除。
+## 开源协议
 
-本仓库的 spritesheet 是原创的灯光语义转译，没有复制 Yeelight/易来 logo、可读文字、UI、宣传语或官方图片像素。`Yeelight` 名称仅用于说明灵感来源和资源命名；本项目不是 Yeelight 官方项目，也不代表 Yeelight 官方背书。
-
-代码按 MIT License 发布。生成图片资产默认随仓库按同一许可证发布，除非后续维护者在特定资源目录中另行声明。
-
-更多归属和商标边界见 [NOTICE.md](NOTICE.md)，安全反馈范围见 [SECURITY.md](SECURITY.md)。
+代码和已提交素材按 [MIT License](LICENSE) 发布。项目里的 Yeelight/易来名称只用于说明灯光灵感来源和资源命名。
